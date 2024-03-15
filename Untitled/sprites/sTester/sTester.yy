@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sTester",
-  "bbox_bottom": 0,
+  "bbox_bottom": 754,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 1279,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f74ca3db-26f4-4040-bb69-ef9fdcd11dc6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0604d6aa-bf26-42b0-965a-623272429fc3",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 755,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a83c0d0-f4b2-408f-b23a-c2faa24a5045","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"760ef327-fc40-4e0d-a9f4-9445097bade7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f74ca3db-26f4-4040-bb69-ef9fdcd11dc6","path":"sprites/sTester/sTester.yy",},},},"Disabled":false,"id":"d2ecbf2f-ba3e-43c6-9bde-5e19bd367f62","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0604d6aa-bf26-42b0-965a-623272429fc3","path":"sprites/sTester/sTester.yy",},},},"Disabled":false,"id":"43394b55-593d-4ef5-a0f6-978dbb1655d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 1280,
 }
