@@ -81,3 +81,18 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 
 y+=vspd;
+
+if(abs(hspd) > 0 || abs(vspd) > 0) {
+	state = PlayerState.RUNNING;	
+} else {
+	state = PlayerState.IDLE;	
+}
+
+if(hspd > 0) {
+	image_xscale = 1;
+} else if(hspd < 0) {
+	image_xscale = -1;
+}
+
+//sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
+sprite_test = getPlayerSprite(state, holding);

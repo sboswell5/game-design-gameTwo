@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite10",
-    "path": "sprites/Sprite10/Sprite10.yy",
+    "name": "sIceWall",
+    "path": "sprites/sIceWall/sIceWall.yy",
   },
   "spriteMaskId": null,
   "visible": true,

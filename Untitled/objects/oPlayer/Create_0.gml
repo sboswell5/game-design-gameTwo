@@ -16,3 +16,8 @@ walking_on_collisions = ds_list_create();
 typing = false;
 
 holding = undefined;
+
+state = PlayerState.IDLE;
+
+//sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
+sprite_test = getPlayerSprite(state, holding);
