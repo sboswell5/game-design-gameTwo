@@ -138,3 +138,10 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 
 //sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
 sprite_test = getPlayerSprite(state, holding);
+try {
+	if(sprite_exists(sprite_test)) {
+		sprite_index = sprite_test;
+	}
+} catch(e) {
+	
+}
