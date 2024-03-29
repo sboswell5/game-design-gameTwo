@@ -5,6 +5,10 @@ function get_item(argument0){
 		case "testItem":
 			value = { sprite: sTestItem, displayName: "Test Item", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 5.0, knockbackStrength: 10.0 };
 			break;
+		
+		case "healingPotion":
+			value = { sprite: sHealingPotion, displayName: "Healing Potion", isAttackable: false, attackType: AttackType.NONE, isConsumable: true};
+			break;
 			
 		default: value = { displayName: argument0 };
 			

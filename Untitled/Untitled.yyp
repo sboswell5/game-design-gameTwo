@@ -60,6 +60,7 @@
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"sInventoryItemBox","path":"sprites/sInventoryItemBox/sInventoryItemBox.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"sHealingPotion","path":"sprites/sHealingPotion/sHealingPotion.yy",},},
     {"id":{"name":"getPlayerSprite","path":"scripts/getPlayerSprite/getPlayerSprite.yy",},},
     {"id":{"name":"oObserver","path":"objects/oObserver/oObserver.yy",},},
     {"id":{"name":"sInteractableTest","path":"sprites/sInteractableTest/sInteractableTest.yy",},},
