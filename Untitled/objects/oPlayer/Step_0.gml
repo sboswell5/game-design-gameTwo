@@ -89,9 +89,9 @@ if(abs(hspd) > 0 || abs(vspd) > 0) {
 }
 
 if(hspd > 0) {
-	image_xscale = 1;
+	image_xscale = abs(image_xscale);
 } else if(hspd < 0) {
-	image_xscale = -1;
+	image_xscale = -abs(image_xscale);
 }
 
 //sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
