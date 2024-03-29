@@ -1,4 +1,9 @@
+if(isHurt) {
+	shader_set(shdFlashRed);
+}
+
 draw_self();
+shader_reset();
 
 if(global.debug) {
 	draw_text(x, y - 30, string(current_deceleration));

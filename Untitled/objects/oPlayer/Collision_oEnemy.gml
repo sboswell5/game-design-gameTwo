@@ -1,1 +1,1 @@
-damage_player(other.damage);
+damage_object(self, other.damage)

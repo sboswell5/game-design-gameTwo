@@ -1,3 +1,13 @@
+if(oHealth <= 0) {
+	player_died();
+	oHealth = oMaxHealth
+}
+
+if(invincibilityTimer > 0) {
+	invincibilityTimer--;
+	if(invincibilityTimer <= invincibilityTimeMax - flashForFrames) isHurt = false;
+}
+
 ds_list_clear(walking_on_collisions);
 
 found_deceleration = false;
@@ -82,9 +92,9 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 y+=vspd;
 
-if(abs(hspd) > 0 || abs(vspd) > 0) {
+if(( abs(hspd) > 0 || abs(vspd) > 0 ) && state != PlayerState.ATTACKING) {
 	state = PlayerState.RUNNING;	
-} else {
+} else if(state != PlayerState.ATTACKING) {
 	state = PlayerState.IDLE;	
 }
 
@@ -92,6 +102,38 @@ if(hspd > 0) {
 	image_xscale = abs(image_xscale);
 } else if(hspd < 0) {
 	image_xscale = -abs(image_xscale);
+}
+
+if(holding != undefined && mouse_check_button_pressed(mb_left) && state != PlayerState.ATTACKING) {
+	if(holding.options.isAttackable) {
+		
+		state = PlayerState.ATTACKING;
+		
+		if(holding.options.attackType == AttackType.MELEE) {
+			
+			cBox = instance_create_layer(x,y,"Instances", oCollisionBox);
+			
+			//cBox.width = holding.options.attackWidth
+			//cBox.height = holding.options.attackHeight;
+			cBox.width = 64;
+			cBox.height = 64;
+			cBox.facing = sign(image_xscale);
+			cBox.knockback_strength = holding.options.knockbackStrength;
+			cBox.damage = holding.options.attackDamage;
+			
+		} else if(holding.options.attackType == AttackType.RANGED) {
+			// No time to add this :(
+		}
+	} else if(holding.options.isConsumable){
+		/*
+		if(holding.name == "bandages") {
+			healingAmount = 5;
+			oInventory.inventory.item_subtract("bandages", 1);
+			heal_object(self, healingAmount);
+			showMessage($"Healed for {healingAmount} health");
+		}
+		*/
+	}
 }
 
 //sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites

@@ -3,7 +3,7 @@ function get_item(argument0){
 	switch(argument0) {
 		
 		case "testItem":
-			value = { sprite: sTestItem, displayName: "Test Item" };
+			value = { sprite: sTestItem, displayName: "Test Item", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 5.0, knockbackStrength: 10.0 };
 			break;
 			
 		default: value = { displayName: argument0 };
