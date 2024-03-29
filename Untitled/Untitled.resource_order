@@ -30,6 +30,7 @@
     {"name":"oHurtBox","order":11,"path":"objects/oHurtBox/oHurtBox.yy",},
     {"name":"rm_paused","order":1,"path":"rooms/rm_paused/rm_paused.yy",},
     {"name":"PlayerState","order":7,"path":"scripts/PlayerState/PlayerState.yy",},
+    {"name":"sPlayerRunning","order":7,"path":"sprites/sPlayerRunning/sPlayerRunning.yy",},
     {"name":"damage_object","order":8,"path":"scripts/damage_object/damage_object.yy",},
     {"name":"draw_reset","order":1,"path":"scripts/draw_reset/draw_reset.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
