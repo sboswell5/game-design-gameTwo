@@ -35,6 +35,7 @@ if(oPlayer.typing) {
 			args = string_split(inputMessage, " ");
 			
 			if(args[0] == "restart") {
+				show_debug_message("Restarted")
 				room_persistent = false;
 				room_restart();
 			}
