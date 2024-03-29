@@ -125,6 +125,13 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			// No time to add this :(
 		}
 	} else if(holding.options.isConsumable){
+		
+		if(holding.name == "healingPotion") {
+			healingAmount = 25;
+			oInventory.inventory.item_subtract("healingPotion", 1);
+			heal_object(self, healingAmount);
+		}
+		
 		/*
 		if(holding.name == "bandages") {
 			healingAmount = 5;

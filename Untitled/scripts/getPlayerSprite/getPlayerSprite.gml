@@ -1,4 +1,5 @@
 function getPlayerSprite(state, holding){
+	try {
 	switch state {
 		
 		case PlayerState.IDLE:
@@ -32,5 +33,9 @@ function getPlayerSprite(state, holding){
 			}
 		break;
 		
+	}
+	} catch(e) {
+		show_debug_message("Could not find sprite!");
+		return sPlayerIdle;
 	}
 }
