@@ -56,14 +56,18 @@ if(mouse_check_button_pressed(mb_left)) {
 
 if(mouse_check_button_released(mb_left)) {
 
-	for(i = 0; i < total_slots; i++) {
+	for(i = 0; i < total_slots + 1; i++) {
 		box_x = i * (box_padding + box_size) + x_offset + box_padding / 2;
 		box_y = y_offset;
 		
 		if(is_between(mx, box_x, box_x + box_size + selected_slot_padding)) {
 			if(is_between(my, box_y, box_y + box_size + selected_slot_padding)) {
-				inventory.item_move(selected_slot, i);
-				selected_slot = i;
+				if(i == total_slots) { // Trash can!
+					inventory.item_remove(selected_slot);
+				} else {
+					inventory.item_move(selected_slot, i);
+					selected_slot = i;
+				}
 			}
 		}
 	

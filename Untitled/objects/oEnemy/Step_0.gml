@@ -1,3 +1,12 @@
+if(oHealth <= 0) {
+	instance_destroy();	
+}
+
+if(invincibilityTimer > 0) {
+	invincibilityTimer--;
+	if(invincibilityTimer <= invincibilityTimeMax - flashForFrames) isHurt = false;
+}
+
 if(state == "left") {
 	hspeed = -2;
 	image_xscale = -1;
@@ -14,7 +23,6 @@ if(place_meeting(x + hspeed, y, global.collision_objects)) {
 	}
 }
 
-show_debug_message(place_meeting(x + hspeed + 32, y + 3, global.collision_objects));
 
 if(!place_meeting(x + hspeed, y, global.collision_objects) && !place_meeting(x + hspeed * 16, y + 16, global.collision_objects)) {
 	if(state == "left") {

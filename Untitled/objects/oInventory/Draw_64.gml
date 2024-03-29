@@ -4,6 +4,14 @@ if(!shown) {
 
 inventory_items = inventory.item_get();
 
+if(moving != noone) {
+	box_x = (array_length(inventory_items)) * (box_padding + box_size) + x_offset + box_padding / 2;
+	box_y = y_offset;
+	
+	draw_sprite(sInventoryDeleteItemBox, 0, box_x, box_y);
+	
+}
+
 for(i = 0; i < array_length(inventory_items); i++) {
 	
 	box_x = i * (box_padding + box_size) + x_offset + box_padding / 2;
@@ -96,16 +104,20 @@ for(i = 0; i < array_length(inventory_items); i++) {
 		draw_sprite(inventory_items[i].options.sprite, 0, box_x + sprite_get_width(inventory_items[i].options.sprite) / 2, box_y + sprite_get_height(inventory_items[i].options.sprite) / 2);	
 	}
 	
-	for(s = 0; s < total_slots; s++) {
-		if(inventory_items[s] == noone) continue;
+	for(s = 0; s < total_slots + 1; s++) {
+		if(s != total_slots && inventory_items[s] == noone) continue;
 		box_x = s * (box_padding + box_size) + x_offset + box_padding / 2;
 		box_y = y_offset;
 		
 		
 		if(is_between(mx, box_x, box_x + box_size + selected_slot_padding)) {
 			if(is_between(my, box_y, box_y + box_size + selected_slot_padding)) {
-				if(moving != inventory_items[s].name) {
-					draw_text(box_x + box_size / 2, box_y, inventory_items[s].options.displayName);
+				if(s == total_slots) { // Trash can!
+					draw_text(box_x + box_size / 2, box_y - 12, "Delete item");
+				} else {
+					if(moving != inventory_items[s].name) {
+						draw_text(box_x + box_size / 2, box_y - 12, inventory_items[s].options.displayName);
+					}
 				}
 			}
 		}

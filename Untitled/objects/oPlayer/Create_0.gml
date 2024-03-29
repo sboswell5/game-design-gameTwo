@@ -1,3 +1,11 @@
+oMaxHealth = 50;
+oHealth = oMaxHealth;
+
+isHurt = false;
+invincibilityTimeMax = 20;
+invincibilityTimer = 0;
+flashForFrames = 10;
+
 maxhspd = 5;
 maxvspd = 5;
 
