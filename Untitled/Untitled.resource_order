@@ -41,6 +41,7 @@
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"sHealingPotion","order":2,"path":"sprites/sHealingPotion/sHealingPotion.yy",},
     {"name":"getPlayerSprite","order":6,"path":"scripts/getPlayerSprite/getPlayerSprite.yy",},
+    {"name":"heal_object","order":11,"path":"scripts/heal_object/heal_object.yy",},
     {"name":"sInteractableTest","order":1,"path":"sprites/sInteractableTest/sInteractableTest.yy",},
     {"name":"oInventory","order":2,"path":"objects/oInventory/oInventory.yy",},
     {"name":"oCollisionBox","order":10,"path":"objects/oCollisionBox/oCollisionBox.yy",},

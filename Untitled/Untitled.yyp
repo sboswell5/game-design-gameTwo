@@ -63,6 +63,7 @@
     {"id":{"name":"sHealingPotion","path":"sprites/sHealingPotion/sHealingPotion.yy",},},
     {"id":{"name":"getPlayerSprite","path":"scripts/getPlayerSprite/getPlayerSprite.yy",},},
     {"id":{"name":"oObserver","path":"objects/oObserver/oObserver.yy",},},
+    {"id":{"name":"heal_object","path":"scripts/heal_object/heal_object.yy",},},
     {"id":{"name":"sInteractableTest","path":"sprites/sInteractableTest/sInteractableTest.yy",},},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
     {"id":{"name":"oCollisionBox","path":"objects/oCollisionBox/oCollisionBox.yy",},},

@@ -1,41 +1,41 @@
 function getPlayerSprite(state, holding){
+	try {
 	switch state {
 		
 		case PlayerState.IDLE:
 			switch holding ? holding.name : undefined {
 				case "testItem":
-					//return sPlayerIdleTestItem;  DOTO: Remove comment once we have player sprites
-					return "sPlayerIdleTestItem";
+					return sPlayerIdleTestItem;
 					break;
 				default:
-					return "sPlayerIdle";
+					return sPlayerIdle;
 			}
 		break;
 		
 		case PlayerState.RUNNING:
 			switch holding ? holding.name : undefined {
 				case "testItem":
-					//return sPlayerRunningTestItem; DOTO: Remove comment once we have player sprites
-					return "sPlayerRunningTestItem";
+					return sPlayerRunningTestItem;
 					break;
 				default:
-					//return sPlayerRunning; DOTO: Remove comment once we have player sprites
-					return "sPlayerRunning";
+					return sPlayerRunning;
 			}
 		break;
 		
 		case PlayerState.ATTACKING:
 			switch holding ? holding.name : undefined {
 				case "testItem":
-					//return sPlayerAttackingTestItem; DOTO: Remove comment once we have player sprites
-					return "sPlayerAttackingTestItem";
+					return sPlayerAttackingTestItem;
 					break;
 				
 				default:
-					//return sPlayerAttacking; DOTO: Remove comment once we have player sprites
-					return "sPlayerAttacking";
+					return sPlayerAttacking;
 			}
 		break;
 		
+	}
+	} catch(e) {
+		show_debug_message("Could not find sprite!");
+		return sPlayerIdle;
 	}
 }

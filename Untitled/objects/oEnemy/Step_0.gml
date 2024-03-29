@@ -9,10 +9,10 @@ if(invincibilityTimer > 0) {
 
 if(state == "left") {
 	hspeed = -2;
-	image_xscale = -1;
+	image_xscale = -abs(image_xscale);
 } else if(state == "right") {
 	hspeed = 2;	
-	image_xscale = 1;
+	image_xscale = abs(image_xscale);
 }
 
 if(place_meeting(x + hspeed, y, global.collision_objects)) {

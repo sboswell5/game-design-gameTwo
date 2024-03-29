@@ -125,6 +125,13 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			// No time to add this :(
 		}
 	} else if(holding.options.isConsumable){
+		
+		if(holding.name == "healingPotion") {
+			healingAmount = 25;
+			oInventory.inventory.item_subtract("healingPotion", 1);
+			heal_object(self, healingAmount);
+		}
+		
 		/*
 		if(holding.name == "bandages") {
 			healingAmount = 5;
@@ -138,3 +145,10 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 
 //sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
 sprite_test = getPlayerSprite(state, holding);
+try {
+	if(sprite_exists(sprite_test)) {
+		sprite_index = sprite_test;
+	}
+} catch(e) {
+	
+}
