@@ -33,6 +33,8 @@
     {"name":"sPlayerRunning","order":7,"path":"sprites/sPlayerRunning/sPlayerRunning.yy",},
     {"name":"damage_object","order":8,"path":"scripts/damage_object/damage_object.yy",},
     {"name":"draw_reset","order":1,"path":"scripts/draw_reset/draw_reset.yy",},
+    {"name":"Sprite17","order":5,"path":"sprites/Sprite17/Sprite17.yy",},
+    {"name":"sPlayerIdleSword","order":4,"path":"sprites/sPlayerIdleSword/sPlayerIdleSword.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oInteractableTest","order":6,"path":"objects/oInteractableTest/oInteractableTest.yy",},
     {"name":"sEnemy","order":5,"path":"sprites/sEnemy/sEnemy.yy",},

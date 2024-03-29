@@ -53,6 +53,8 @@
     {"id":{"name":"damage_object","path":"scripts/damage_object/damage_object.yy",},},
     {"id":{"name":"shdFlashRed","path":"shaders/shdFlashRed/shdFlashRed.yy",},},
     {"id":{"name":"draw_reset","path":"scripts/draw_reset/draw_reset.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
+    {"id":{"name":"sPlayerIdleSword","path":"sprites/sPlayerIdleSword/sPlayerIdleSword.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oInteractableTest","path":"objects/oInteractableTest/oInteractableTest.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
