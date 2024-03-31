@@ -33,6 +33,7 @@ if(!typing) {
 	if (can_jump-- > 0 && keyboard_check(global.jump_key)){
 		can_jump = 0;
 	    vspd = vspdJump;
+		state = PlayerState.JUMPING;
 	}
 
 	if (keyboard_check(global.right_key)){
@@ -79,7 +80,10 @@ if (place_meeting(x+hspd, y, global.collision_objects)){
 x+=hspd;
 
 if (place_meeting(x, y+vspd, global.collision_objects)){
-	if(vspd > 0.0) can_jump = 10;
+	if(vspd > 0.0) {
+		can_jump = 10;
+		if(state == PlayerState.JUMPING) state = PlayerState.IDLE;
+	}
 
 	while (abs(vspd) > 0.1) {
 		vspd *= 0.5
@@ -92,9 +96,9 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 y+=vspd;
 
-if(( abs(hspd) > 0 || abs(vspd) > 0 ) && state != PlayerState.ATTACKING) {
+if(( abs(hspd) > 0 || abs(vspd) > 0 ) && state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
 	state = PlayerState.RUNNING;	
-} else if(state != PlayerState.ATTACKING) {
+} else if(state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
 	state = PlayerState.IDLE;	
 }
 
@@ -115,8 +119,8 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			
 			//cBox.width = holding.options.attackWidth
 			//cBox.height = holding.options.attackHeight;
-			cBox.width = 64;
-			cBox.height = 64;
+			cBox.width = 96;
+			cBox.height = sprite_height;
 			cBox.facing = sign(image_xscale);
 			cBox.knockback_strength = holding.options.knockbackStrength;
 			cBox.damage = holding.options.attackDamage;

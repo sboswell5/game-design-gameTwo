@@ -2,12 +2,12 @@ function get_item(argument0){
 	value = {};
 	switch(argument0) {
 		
-		case "testItem":
-			value = { sprite: sSword, displayName: "Test Item", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 5.0, knockbackStrength: 10.0 };
+		case "sword":
+			value = { sprite: sSword, displayName: "Sword", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 5.0, knockbackStrength: 10.0 };
 			break;
 		
 		case "healingPotion":
-			value = { sprite: sHealingPotion, displayName: "Healing Potion", isAttackable: false, attackType: AttackType.NONE, isConsumable: true};
+			value = { sprite: sHealingPotion, displayName: "Healing Potion", isConsumable: true};
 			break;
 			
 		default: value = { displayName: argument0 };

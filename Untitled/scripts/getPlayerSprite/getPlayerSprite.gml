@@ -4,8 +4,8 @@ function getPlayerSprite(state, holding){
 		
 		case PlayerState.IDLE:
 			switch holding ? holding.name : undefined {
-				case "testItem":
-					return sPlayerIdleTestItem;
+				case "sword":
+					return sPlayerIdleSword;
 					break;
 				default:
 					return sPlayerIdle;
@@ -14,8 +14,8 @@ function getPlayerSprite(state, holding){
 		
 		case PlayerState.RUNNING:
 			switch holding ? holding.name : undefined {
-				case "testItem":
-					return sPlayerRunningTestItem;
+				case "sword":
+					return sPlayerRunningSword;
 					break;
 				default:
 					return sPlayerRunning;
@@ -24,12 +24,23 @@ function getPlayerSprite(state, holding){
 		
 		case PlayerState.ATTACKING:
 			switch holding ? holding.name : undefined {
-				case "testItem":
-					return sPlayerAttackingTestItem;
+				case "sword":
+					return sPlayerAttackingSword;
 					break;
 				
 				default:
-					return sPlayerAttacking;
+					return sPlayerAttackingSword;
+			}
+		break;
+		
+		case PlayerState.JUMPING:
+			switch holding ? holding.name : undefined {
+				case "sword":
+					return sPlayerJumpingSword;
+					break;
+				
+				default:
+					return sPlayerJumping;
 			}
 		break;
 		
