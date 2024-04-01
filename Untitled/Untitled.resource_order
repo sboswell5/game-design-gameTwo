@@ -51,6 +51,7 @@
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"sDemonGorrilaIdle","order":13,"path":"sprites/sDemonGorrilaIdle/sDemonGorrilaIdle.yy",},
     {"name":"sHealingPotion","order":2,"path":"sprites/sHealingPotion/sHealingPotion.yy",},
+    {"name":"layer4","order":18,"path":"sprites/layer4/layer4.yy",},
     {"name":"getPlayerSprite","order":6,"path":"scripts/getPlayerSprite/getPlayerSprite.yy",},
     {"name":"sPlayerJumpingSword","order":11,"path":"sprites/sPlayerJumpingSword/sPlayerJumpingSword.yy",},
     {"name":"sTreasureChestIdle","order":6,"path":"sprites/sTreasureChestIdle/sTreasureChestIdle.yy",},
