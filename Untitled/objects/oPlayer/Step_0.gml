@@ -139,10 +139,12 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			attackDamage = 15;
 			oInventory.inventory.item_subtract("fireBean",1);
 			attack_boost(self, attackDamage);
-	} else if(holding.name = "iceBean"){
+		}
+		else if(holding.name = "iceBean"){
 			attackDamage = 15;
 			oInventory.inventory.item_subtract("iceBean",1);
 			attack_boost(self, attackDamage);
+		}
 	}
 }
 

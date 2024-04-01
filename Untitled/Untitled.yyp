@@ -85,6 +85,7 @@
     {"id":{"name":"sIceBean","path":"sprites/sIceBean/sIceBean.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"oMessage","path":"objects/oMessage/oMessage.yy",},},
     {"id":{"name":"sPlayerAttackingSword","path":"sprites/sPlayerAttackingSword/sPlayerAttackingSword.yy",},},
     {"id":{"name":"oIce","path":"objects/oIce/oIce.yy",},},
     {"id":{"name":"sInventorySelectedItemBox","path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},},

@@ -60,6 +60,7 @@
     {"name":"oInput","order":3,"path":"objects/oInput/oInput.yy",},
     {"name":"sIceBean","order":5,"path":"sprites/sIceBean/sIceBean.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
+    {"name":"oMessage","order":12,"path":"objects/oMessage/oMessage.yy",},
     {"name":"sPlayerAttackingSword","order":6,"path":"sprites/sPlayerAttackingSword/sPlayerAttackingSword.yy",},
     {"name":"oIce","order":5,"path":"objects/oIce/oIce.yy",},
     {"name":"sInventorySelectedItemBox","order":1,"path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},
