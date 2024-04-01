@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(vk_f1)) {
+if(keyboard_check_pressed(ord("P"))) {
 	global.debug = global.debug ? false : true;
 }
 

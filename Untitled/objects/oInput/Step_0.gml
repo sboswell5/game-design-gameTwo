@@ -56,8 +56,12 @@ if(oPlayer.typing) {
 					item = oInventory.inventory.item_add(args[1], amount);
 					
 					if(item != noone) {
-						show_debug_message($"You got {item.options.displayName}! {amount}x");
+						show_debug_message($"");
+						m = instance_create_layer(0,0, "Instances", oMessage);
+						m.text_message = $"You got {item.options.displayName}! {amount}x";
 					} else {
+						m = instance_create_layer(0,0, "Instances", oMessage);
+						m.text_message = "Your inventory is full. Remove an item by holding left click on the item and dragging it to the trash";
 						show_debug_message($"Failed to get item. Inventory may be full");
 					}
 					
