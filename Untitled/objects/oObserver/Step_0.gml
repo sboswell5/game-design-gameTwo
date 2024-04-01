@@ -14,3 +14,5 @@ if (keyboard_check_pressed(vk_escape)) {
 if (paused == false) {
 	instance_activate_all();
 }
+
+if(room != rm_paused) lastroom = room;

@@ -2,6 +2,10 @@ if(oHealth <= 0) {
 	instance_destroy();	
 }
 
+if(x < -sprite_height) {
+	instance_destroy();	
+}
+
 if(invincibilityTimer > 0) {
 	invincibilityTimer--;
 	if(invincibilityTimer <= invincibilityTimeMax - flashForFrames) isHurt = false;
