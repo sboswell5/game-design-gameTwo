@@ -135,6 +135,14 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			oInventory.inventory.item_subtract("healingPotion", 1);
 			heal_object(self, healingAmount);
 		}
+		else if(holding.name = "fireBean"){
+			attackDamage = 15;
+			oInventory.inventory.item_subtract("fireBean",1);
+			attack_boost(self, attackDamage);
+	} else if(holding.name = "iceBean"){
+			attackDamage = 15;
+			oInventory.inventory.item_subtract("iceBean",1);
+			attack_boost(self, attackDamage);
 	}
 }
 
