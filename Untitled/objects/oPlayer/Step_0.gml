@@ -186,4 +186,6 @@ if(y > room_height + sprite_height) {
 		
 	}
 	show_debug_message("DIED");
+	m = instance_create_layer(0,0, "Instances", oMessage);
+	m.text_message = "You died! :(";
 }
