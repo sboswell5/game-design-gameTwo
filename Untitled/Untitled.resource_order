@@ -13,12 +13,12 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"hellworld","order":20,"path":"folders/Sprites/hellworld.yy",},
     {"name":"inventory","order":1,"path":"folders/Sprites/inventory.yy",},
     {"name":"items","order":3,"path":"folders/Sprites/items.yy",},
     {"name":"world","order":2,"path":"folders/Sprites/world.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"hellworld","order":20,"path":"folders/Sprites/hellworld.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"hellLayer2","order":1,"path":"sprites/hellLayer2/hellLayer2.yy",},
