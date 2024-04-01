@@ -112,10 +112,10 @@ for(i = 0; i < array_length(inventory_items); i++) {
 		
 		if(is_between(mx, box_x, box_x + box_size + selected_slot_padding)) {
 			if(is_between(my, box_y, box_y + box_size + selected_slot_padding)) {
-				if(s == total_slots) { // Trash can!
+				if(s == total_slots && moving != noone) { // Trash can!
 					draw_text(box_x + box_size / 2, box_y - 12, "Delete item");
 				} else {
-					if(moving != inventory_items[s].name) {
+					if(s != total_slots && moving != inventory_items[s].name) {
 						draw_text(box_x + box_size / 2, box_y - 12, inventory_items[s].options.displayName);
 					}
 				}

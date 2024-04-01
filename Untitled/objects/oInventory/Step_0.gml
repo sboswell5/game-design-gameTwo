@@ -60,16 +60,18 @@ if(mouse_check_button_released(mb_left)) {
 		
 		if(is_between(mx, box_x, box_x + box_size + selected_slot_padding)) {
 			if(is_between(my, box_y, box_y + box_size + selected_slot_padding)) {
-				if(i == total_slots) { // Trash can!
+				show_debug_message(moving);
+				if(i == total_slots && moving != noone) { // Trash can!
 					inventory.item_remove(selected_slot);
-				} else {
+				} else if(i != total_slots) {
 					inventory.item_move(selected_slot, i);
 					selected_slot = i;
 				}
 			}
 		}
-	
-		moving = noone;
-				
+
 	}
+		
+	moving = noone;
+				
 }

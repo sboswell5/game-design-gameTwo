@@ -108,33 +108,43 @@ if(hspd > 0) {
 	image_xscale = -abs(image_xscale);
 }
 
+	
+	
 if(holding != undefined && mouse_check_button_pressed(mb_left) && state != PlayerState.ATTACKING) {
-	if(holding.options.isAttackable) {
+	
+	mx = device_mouse_x_to_gui(0);
+	my = device_mouse_y_to_gui(0);
+
+
+	if(!(is_between(mx, oInventory.x_offset, oInventory.x_offset + oInventory.width) && is_between(my, oInventory.y_offset,  oInventory.y_offset + oInventory.height))) {
+				
+				if(holding.options.isAttackable) {
 		
-		state = PlayerState.ATTACKING;
+					state = PlayerState.ATTACKING;
 		
-		if(holding.options.attackType == AttackType.MELEE) {
+					if(holding.options.attackType == AttackType.MELEE) {
 			
-			cBox = instance_create_layer(x,y,"Instances", oCollisionBox);
+						cBox = instance_create_layer(x,y,"Instances", oCollisionBox);
 			
-			//cBox.width = holding.options.attackWidth
-			//cBox.height = holding.options.attackHeight;
-			cBox.width = 96;
-			cBox.height = sprite_height;
-			cBox.facing = sign(image_xscale);
-			cBox.knockback_strength = holding.options.knockbackStrength;
-			cBox.damage = holding.options.attackDamage;
+						//cBox.width = holding.options.attackWidth
+						//cBox.height = holding.options.attackHeight;
+						cBox.width = 96;
+						cBox.height = sprite_height;
+						cBox.facing = sign(image_xscale);
+						cBox.knockback_strength = holding.options.knockbackStrength;
+						cBox.damage = holding.options.attackDamage;
 			
-		} else if(holding.options.attackType == AttackType.RANGED) {
-			// No time to add this :(
-		}
-	} else if(holding.options.isConsumable){
+					} else if(holding.options.attackType == AttackType.RANGED) {
+						// No time to add this :(
+					}
+				} else if(holding.options.isConsumable){
 		
-		if(holding.name == "healingPotion") {
-			healingAmount = 15;
-			oInventory.inventory.item_subtract("healingPotion", 1);
-			heal_object(self, healingAmount);
-		}
+					if(holding.name == "healingPotion") {
+						healingAmount = 15;
+						oInventory.inventory.item_subtract("healingPotion", 1);
+						heal_object(self, healingAmount);
+					}
+				}
 	}
 }
 
