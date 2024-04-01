@@ -7,5 +7,3 @@ global.collision_objects = [oWall, oIce, oIceWall, oIslandJungle, oPlatformJungl
 global.deceleration_objects = [oIce];
 
 global.debug = false;
-paused = false;
-paused_surf = -1;

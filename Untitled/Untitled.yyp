@@ -51,7 +51,6 @@
     {"id":{"name":"keytostring","path":"scripts/keytostring/keytostring.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oHurtBox","path":"objects/oHurtBox/oHurtBox.yy",},},
-    {"id":{"name":"rm_paused","path":"rooms/rm_paused/rm_paused.yy",},},
     {"id":{"name":"PlayerState","path":"scripts/PlayerState/PlayerState.yy",},},
     {"id":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"id":{"name":"layer0","path":"sprites/layer0/layer0.yy",},},
@@ -118,7 +117,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
-    {"roomId":{"name":"rm_paused","path":"rooms/rm_paused/rm_paused.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
