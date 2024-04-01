@@ -9,5 +9,3 @@ global.deceleration_objects = [oIce];
 global.debug = false;
 paused = false;
 paused_surf = -1;
-
-if(room != rm_paused) lastroom = room;

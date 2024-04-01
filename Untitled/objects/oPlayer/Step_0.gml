@@ -96,55 +96,55 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 y+=vspd;
 
-if(( abs(hspd) > 0 || abs(vspd) > 0 ) && state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
+if(( keyboard_check(global.left_key) || keyboard_check(global.right_key) ) && state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
 	state = PlayerState.RUNNING;	
 } else if(state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
 	state = PlayerState.IDLE;	
 }
 
-if(hspd > 0) {
+if(keyboard_check(global.right_key)) {
 	image_xscale = abs(image_xscale);
-} else if(hspd < 0) {
+} else if( keyboard_check(global.left_key)) {
 	image_xscale = -abs(image_xscale);
 }
 
-	
-	
 if(holding != undefined && mouse_check_button_pressed(mb_left) && state != PlayerState.ATTACKING) {
-	
-	mx = device_mouse_x_to_gui(0);
-	my = device_mouse_y_to_gui(0);
-
-
-	if(!(is_between(mx, oInventory.x_offset, oInventory.x_offset + oInventory.width) && is_between(my, oInventory.y_offset,  oInventory.y_offset + oInventory.height))) {
-				
-				if(holding.options.isAttackable) {
+	if(holding.options.isAttackable) {
 		
-					state = PlayerState.ATTACKING;
+		state = PlayerState.ATTACKING;
 		
-					if(holding.options.attackType == AttackType.MELEE) {
+		if(holding.options.attackType == AttackType.MELEE) {
 			
-						cBox = instance_create_layer(x,y,"Instances", oCollisionBox);
+			cBox = instance_create_layer(x,y,"Instances", oCollisionBox);
 			
-						//cBox.width = holding.options.attackWidth
-						//cBox.height = holding.options.attackHeight;
-						cBox.width = 96;
-						cBox.height = sprite_height;
-						cBox.facing = sign(image_xscale);
-						cBox.knockback_strength = holding.options.knockbackStrength;
-						cBox.damage = holding.options.attackDamage;
+			//cBox.width = holding.options.attackWidth
+			//cBox.height = holding.options.attackHeight;
+			cBox.width = 96;
+			cBox.height = sprite_height;
+			cBox.facing = sign(image_xscale);
+			cBox.knockback_strength = holding.options.knockbackStrength;
+			cBox.damage = holding.options.attackDamage;
 			
-					} else if(holding.options.attackType == AttackType.RANGED) {
-						// No time to add this :(
-					}
-				} else if(holding.options.isConsumable){
+		} else if(holding.options.attackType == AttackType.RANGED) {
+			// No time to add this :(
+		}
+	} else if(holding.options.isConsumable){
 		
-					if(holding.name == "healingPotion") {
-						healingAmount = 15;
-						oInventory.inventory.item_subtract("healingPotion", 1);
-						heal_object(self, healingAmount);
-					}
-				}
+		if(holding.name == "healingPotion") {
+			healingAmount = 15;
+			oInventory.inventory.item_subtract("healingPotion", 1);
+			heal_object(self, healingAmount);
+		}
+		else if(holding.name = "fireBean"){
+			attackDamage = 15;
+			oInventory.inventory.item_subtract("fireBean",1);
+			attack_boost(self, attackDamage);
+		}
+		else if(holding.name = "iceBean"){
+			attackDamage = 15;
+			oInventory.inventory.item_subtract("iceBean",1);
+			attack_boost(self, attackDamage);
+		}
 	}
 }
 
@@ -156,4 +156,8 @@ try {
 	}
 } catch(e) {
 	
+}
+
+if(sprite_index != sPlayerJumping && sprite_index != sPlayerJumpingSword){
+	image_speed = 1;
 }

@@ -23,3 +23,4 @@ inventory = new Inventory();
 inventory.item_add("DEBUG ITEM #1", 1);
 inventory.item_add("DEBUG ITEM #2", 5);
 inventory.item_add("healingPotion", 2);
+inventory.item_add("DEBUG ITEM #3", 2);
