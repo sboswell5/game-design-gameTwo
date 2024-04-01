@@ -25,5 +25,5 @@ if (paused == true) {
 		draw_set_halign(fa_left);
 	}
 } else if(room == rm_paused) {
-	room_goto(rm_start);
+	room_goto(lastroom);
 }
