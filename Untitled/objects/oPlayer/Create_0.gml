@@ -11,9 +11,9 @@ maxvspd = 5;
 
 hspd = 0;
 vspd = 0;
-grv = 0.5;
+grv = 0.75;
 
-vspdJump = -10.5;
+vspdJump = -15.0;
 can_jump = 0;
 
 default_deceleration = 0.5;

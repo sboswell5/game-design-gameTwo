@@ -96,15 +96,15 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 y+=vspd;
 
-if(( abs(hspd) > 0 || abs(vspd) > 0 ) && state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
+if(( keyboard_check(global.left_key) || keyboard_check(global.right_key) ) && state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
 	state = PlayerState.RUNNING;	
 } else if(state != PlayerState.ATTACKING && state != PlayerState.JUMPING) {
 	state = PlayerState.IDLE;	
 }
 
-if(hspd > 0) {
+if(keyboard_check(global.right_key)) {
 	image_xscale = abs(image_xscale);
-} else if(hspd < 0) {
+} else if( keyboard_check(global.left_key)) {
 	image_xscale = -abs(image_xscale);
 }
 
@@ -146,4 +146,8 @@ try {
 	}
 } catch(e) {
 	
+}
+
+if(sprite_index != sPlayerJumping && sprite_index != sPlayerJumpingSword){
+	image_speed = 1;
 }
