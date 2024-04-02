@@ -123,7 +123,7 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			cBox.height = sprite_height;
 			cBox.facing = sign(image_xscale);
 			cBox.knockback_strength = holding.options.knockbackStrength;
-			cBox.damage = holding.options.attackDamage;
+			cBox.damage =  holding.options.attackDamage + (holding.options.attackDamage * attackBoost);
 			
 		} else if(holding.options.attackType == AttackType.RANGED) {
 			// No time to add this :(
@@ -136,14 +136,23 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			heal_object(self, healingAmount);
 		}
 		else if(holding.name = "fireBean"){
-			attackDamage = 15;
+			attackBoost = 0.75;
+			attackBoostTimer = 1500;
 			oInventory.inventory.item_subtract("fireBean",1);
-			attack_boost(self, attackDamage);
+		
+			m = instance_create_layer(0,0, "Instances", oMessage);
+			item = get_item("fireBean");
+			m.text_message = $"You have consumed a {item.displayName} and recieved {attackBoost*100}% more damage for a few seconds!";
 		}
 		else if(holding.name = "iceBean"){
-			attackDamage = 15;
+			attackBoost = 0.5;
+			attackBoostTimer = 1500;
 			oInventory.inventory.item_subtract("iceBean",1);
-			attack_boost(self, attackDamage);
+			
+			m = instance_create_layer(0,0, "Instances", oMessage);
+			item = get_item("iceBean");
+			m.text_message = $"You have consumed a {item.displayName} and recieved {attackBoost*100}% more damage for a few seconds!";
+			
 		}
 	}
 }
@@ -160,4 +169,15 @@ try {
 
 if(sprite_index != sPlayerJumping && sprite_index != sPlayerJumpingSword){
 	image_speed = 1;
+}
+
+if(attackBoostTimer < 0) {
+	attackBoost = 0;
+} else {
+	attackBoostTimer--;	
+}
+
+
+if(y > room_height + sprite_height) {
+	player_died();
 }

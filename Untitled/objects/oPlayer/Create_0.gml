@@ -29,3 +29,6 @@ state = PlayerState.IDLE;
 
 //sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
 sprite_test = getPlayerSprite(state, holding);
+
+attackBoost = 0; 
+attackBoostTimer = 0;

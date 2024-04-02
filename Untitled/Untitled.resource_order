@@ -1,15 +1,11 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"sHellPlatform2","order":4,"path":"sprites/sHellPlatform2/sHellPlatform2.yy",},
-    {"name":"oHellPlatform4","order":4,"path":"objects/oHellPlatform4/oHellPlatform4.yy",},
-    {"name":"oHellPlatform2","order":2,"path":"objects/oHellPlatform2/oHellPlatform2.yy",},
-    {"name":"oHellPlatform3","order":3,"path":"objects/oHellPlatform3/oHellPlatform3.yy",},
-    {"name":"sHellPlatform4","order":3,"path":"sprites/sHellPlatform4/sHellPlatform4.yy",},
-    {"name":"Sprite39","order":1,"path":"sprites/Sprite39/Sprite39.yy",},
-    {"name":"sHellPlatform3","order":5,"path":"sprites/sHellPlatform3/sHellPlatform3.yy",},
-    {"name":"sHellPlatform1","order":2,"path":"sprites/sHellPlatform1/sHellPlatform1.yy",},
-    {"name":"rm_hell","order":1,"path":"rooms/rm_hell/rm_hell.yy",},
-    {"name":"oHellPlatform1","order":1,"path":"objects/oHellPlatform1/oHellPlatform1.yy",},
+    {"name":"player_died","order":3,"path":"scripts/player_died/player_died.yy",},
+    {"name":"sPolarBear","order":1,"path":"sprites/sPolarBear/sPolarBear.yy",},
+    {"name":"sSnowball","order":1,"path":"sprites/sSnowball/sSnowball.yy",},
+    {"name":"check_vertical_line_collision","order":1,"path":"scripts/check_vertical_line_collision/check_vertical_line_collision.yy",},
+    {"name":"is_on_same_platform","order":2,"path":"scripts/is_on_same_platform/is_on_same_platform.yy",},
+    {"name":"unlock_key_chest","order":4,"path":"scripts/unlock_key_chest/unlock_key_chest.yy",},
   ],
 }
