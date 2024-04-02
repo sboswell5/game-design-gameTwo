@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "layer_FrontMtns",
-  "bbox_bottom": 311,
+  "bbox_bottom": 325,
   "bbox_left": 0,
-  "bbox_right": 2933,
+  "bbox_right": 3198,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d46ea75-9290-48d4-bb0d-145f5acbc346",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05149af3-3d8d-401c-b6c5-395236f6a1d2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 800,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c7f3ccb-2400-4db9-b0b5-e77144150299","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"222042c0-4d74-4aa7-839f-9670eafef826","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d46ea75-9290-48d4-bb0d-145f5acbc346","path":"sprites/layer_FrontMtns/layer_FrontMtns.yy",},},},"Disabled":false,"id":"aa90c67b-aaac-4e8a-b26c-b8ff4c93c5a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"05149af3-3d8d-401c-b6c5-395236f6a1d2","path":"sprites/layer_FrontMtns/layer_FrontMtns.yy",},},},"Disabled":false,"id":"1e45ce7f-5ecb-4652-8ba2-91e6076d1b8b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
