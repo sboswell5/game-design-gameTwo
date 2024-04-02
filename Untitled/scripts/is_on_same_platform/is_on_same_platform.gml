@@ -1,4 +1,4 @@
-function is_on_same_platform(x,y, step = 10){
+function is_on_same_platform(x,y, step = sprite_get_width(oPlayer.sprite_index)){
 	dist = point_distance(oPlayer.x, oPlayer.y, x, y);
 	dir = point_direction(oPlayer.x, oPlayer.y, x, y);
 	

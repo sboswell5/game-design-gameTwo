@@ -119,11 +119,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
-<<<<<<< Updated upstream
-=======
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
-    {"roomId":{"name":"rm_paused","path":"rooms/rm_paused/rm_paused.yy",},},
->>>>>>> Stashed changes
   ],
   "templateType": "game",
   "TextureGroups": [

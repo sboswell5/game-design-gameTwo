@@ -17,7 +17,7 @@ vspd=0;
 // Hunting
 // Wandering 
 
-state = choose("left", "right");
+dir = choose("left", "right");
 
 isPlayerOnSamePlatform = false;
 

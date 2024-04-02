@@ -15,7 +15,7 @@ if(global.debug) {
 	
 	current_dist_check = 0;
 	isOnSame = true;
-	step =10;
+	step = sprite_get_width(oPlayer.sprite_index);
 
 	i = 1;
 	_x = lengthdir_x(step, dir);
