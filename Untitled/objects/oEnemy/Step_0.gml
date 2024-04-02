@@ -118,6 +118,12 @@ if(state == eState.HUNTING) {
 	} else {
 		sprite_index = fallback_sprite;
 	}
+} else if(state == eState.WANDERING) {
+	if(sprite_exists(walking_sprite)) {
+		sprite_index = walking_sprite;
+	} else {
+		sprite_index = fallback_sprite;
+	}
 }
 
 if(isMeleeAttacking) {
