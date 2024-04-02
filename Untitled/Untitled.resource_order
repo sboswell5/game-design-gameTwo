@@ -1,9 +1,4 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"sBaboonWalk","order":3,"path":"sprites/sBaboonWalk/sBaboonWalk.yy",},
-    {"name":"sBananaAnimation","order":5,"path":"sprites/sBananaAnimation/sBananaAnimation.yy",},
-    {"name":"sBanana","order":2,"path":"sprites/sBanana/sBanana.yy",},
-    {"name":"sBaboon","order":4,"path":"sprites/sBaboon/sBaboon.yy",},
-  ],
+  "ResourceOrderSettings": [],
 }
