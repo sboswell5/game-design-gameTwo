@@ -18,5 +18,6 @@ state = cState.UNOPENED;
 enum cState {
 	UNOPENED,
 	WAITING,
-	OPENED
+	OPENED,
+	LOCKED
 }

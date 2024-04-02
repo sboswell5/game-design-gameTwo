@@ -41,6 +41,9 @@ if(oPlayer.typing) {
 			}
 			else if(args[0] == "restartgame") {
 				game_restart();
+			}
+			else if(args[0] == "unlock") {
+				unlock_key_chest();
 			} 
 			else if(args[0] == "give") {
 				amount = 1;

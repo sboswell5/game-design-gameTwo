@@ -1,5 +1,5 @@
 if(isInteractable) {
-	if(state == cState.UNOPENED) {
+	if(state == cState.UNOPENED || state == cState.LOCKED) {
 		interact_message = $"Press \"{keytostring(global.interact_key)}\" to interact";
 	} else if(state == cState.WAITING) {
 		interact_message = $"Press \"{keytostring(global.interact_key)}\" to pick up item";
@@ -8,7 +8,11 @@ if(isInteractable) {
 	if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 		if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
 			
-			if(state == cState.UNOPENED) {
+			if(state == cState.LOCKED) {
+				m = instance_create_layer(0,0, "Instances", oMessage);
+				m.text_message = $"This chest is locked!";
+			}
+			else if(state == cState.UNOPENED) {
 				state = cState.WAITING;
 				sprite_index = sTreasureChestOpening;
 			} else if(state == cState.WAITING) {

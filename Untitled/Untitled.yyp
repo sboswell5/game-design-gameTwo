@@ -109,6 +109,7 @@
     {"id":{"name":"layer_Ground","path":"sprites/layer_Ground/layer_Ground.yy",},},
     {"id":{"name":"layer3","path":"sprites/layer3/layer3.yy",},},
     {"id":{"name":"sSword","path":"sprites/sSword/sSword.yy",},},
+    {"id":{"name":"unlock_key_chest","path":"scripts/unlock_key_chest/unlock_key_chest.yy",},},
     {"id":{"name":"oInput","path":"objects/oInput/oInput.yy",},},
     {"id":{"name":"sIceBean","path":"sprites/sIceBean/sIceBean.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
