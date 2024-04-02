@@ -62,6 +62,7 @@
     {"id":{"name":"shdFlashRed","path":"shaders/shdFlashRed/shdFlashRed.yy",},},
     {"id":{"name":"sKey","path":"sprites/sKey/sKey.yy",},},
     {"id":{"name":"layer_FrontMtns","path":"sprites/layer_FrontMtns/layer_FrontMtns.yy",},},
+    {"id":{"name":"sPolarBear","path":"sprites/sPolarBear/sPolarBear.yy",},},
     {"id":{"name":"oIslandJungle","path":"objects/oIslandJungle/oIslandJungle.yy",},},
     {"id":{"name":"hellLayer4","path":"sprites/hellLayer4/hellLayer4.yy",},},
     {"id":{"name":"hellLayer3","path":"sprites/hellLayer3/hellLayer3.yy",},},
