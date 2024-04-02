@@ -47,6 +47,7 @@
     {"id":{"name":"oPlatformJungle","path":"objects/oPlatformJungle/oPlatformJungle.yy",},},
     {"id":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
     {"id":{"name":"sIceWall","path":"sprites/sIceWall/sIceWall.yy",},},
+    {"id":{"name":"player_died","path":"scripts/player_died/player_died.yy",},},
     {"id":{"name":"layer_BackMtns","path":"sprites/layer_BackMtns/layer_BackMtns.yy",},},
     {"id":{"name":"keytostring","path":"scripts/keytostring/keytostring.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},

@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"player_died","order":1,"path":"scripts/player_died/player_died.yy",},
+  ],
 }
