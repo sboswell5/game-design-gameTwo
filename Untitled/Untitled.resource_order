@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"check_vertical_line_collision","order":1,"path":"scripts/check_vertical_line_collision/check_vertical_line_collision.yy",},
+    {"name":"is_on_same_platform","order":2,"path":"scripts/is_on_same_platform/is_on_same_platform.yy",},
+  ],
 }

@@ -51,3 +51,5 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 
 y+=vspd;
+
+isPlayerOnSamePlatform = is_on_same_platform(x, y);
