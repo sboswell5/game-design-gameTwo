@@ -42,6 +42,12 @@ state = eState.WANDERING;
 isRangedAttacking = false;
 isMeleeAttacking = false;
 
+if(sprite_exists(walking_sprite)) {
+	sprite_index = walking_sprite;
+} else {
+	sprite_index = fallback_sprite;
+}
+
 isPlayerOnSamePlatform = false;
 
 _hurtBox = instance_create_layer(x,y, "Instances", oHurtBox);
