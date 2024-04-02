@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sHellPlatform3",
-  "bbox_bottom": 63,
+  "bbox_bottom": 62,
   "bbox_left": 65,
-  "bbox_right": 389,
+  "bbox_right": 385,
   "bbox_top": 0,
   "bboxMode": 2,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dcd6ace9-7ade-47d5-a381-0f5b9aeb65e6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04e8aaf2-f6a5-4a70-af22-e40841b05fd7",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 400,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2df9252-de37-463e-b01e-234447df7450","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ebf13ab5-c759-47a5-bab6-d410a66d94a1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dcd6ace9-7ade-47d5-a381-0f5b9aeb65e6","path":"sprites/sHellPlatform3/sHellPlatform3.yy",},},},"Disabled":false,"id":"5d988bd9-2f00-4c15-b720-d7248cc9c4c6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"04e8aaf2-f6a5-4a70-af22-e40841b05fd7","path":"sprites/sHellPlatform3/sHellPlatform3.yy",},},},"Disabled":false,"id":"65b050d7-e0a7-4e31-bddd-50243a7fa9cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

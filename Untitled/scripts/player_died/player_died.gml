@@ -5,6 +5,10 @@ function player_died(){
 	} else if(room == rm_ice) {
 
 	}
+	else if(room == rm_hell) {
+		x = 160
+		y = 512
+	}
 	show_debug_message("DIED");
 	m = instance_create_layer(0,0, "Instances", oMessage);
 	m.text_message = "You died! :(";

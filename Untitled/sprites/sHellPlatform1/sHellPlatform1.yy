@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sHellPlatform1",
   "bbox_bottom": 62,
-  "bbox_left": 62,
-  "bbox_right": 386,
+  "bbox_left": 66,
+  "bbox_right": 384,
   "bbox_top": 0,
   "bboxMode": 2,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99a407f3-8370-4482-9cb1-12408045b731",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"96738062-4c90-4983-bc37-1b13ca2232c2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9cf9c3d2-3509-40bb-869a-0f36cdd0c0e0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2a72858-d31f-4dce-9de8-34a2ce4ce01d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"99a407f3-8370-4482-9cb1-12408045b731","path":"sprites/sHellPlatform1/sHellPlatform1.yy",},},},"Disabled":false,"id":"32c25adb-5589-47df-804d-780fa21f4398","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"96738062-4c90-4983-bc37-1b13ca2232c2","path":"sprites/sHellPlatform1/sHellPlatform1.yy",},},},"Disabled":false,"id":"e57df9a3-ae5b-49e8-bdea-ccf374883c20","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -29,6 +29,9 @@
     "name": "sHellPlatform4",
     "path": "sprites/sHellPlatform4/sHellPlatform4.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sHellPlatform4",
+    "path": "sprites/sHellPlatform4/sHellPlatform4.yy",
+  },
   "visible": true,
 }
