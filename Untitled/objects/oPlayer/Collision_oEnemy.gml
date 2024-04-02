@@ -1,1 +1,0 @@
-damage_object(self, other.damage)

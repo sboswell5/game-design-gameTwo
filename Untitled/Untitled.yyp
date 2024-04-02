@@ -56,6 +56,7 @@
     {"id":{"name":"layer0","path":"sprites/layer0/layer0.yy",},},
     {"id":{"name":"sIce","path":"sprites/sIce/sIce.yy",},},
     {"id":{"name":"hellLayer1","path":"sprites/hellLayer1/hellLayer1.yy",},},
+    {"id":{"name":"player_died","path":"scripts/player_died/player_died.yy",},},
     {"id":{"name":"sPlayerRunning","path":"sprites/sPlayerRunning/sPlayerRunning.yy",},},
     {"id":{"name":"sFireBean","path":"sprites/sFireBean/sFireBean.yy",},},
     {"id":{"name":"damage_object","path":"scripts/damage_object/damage_object.yy",},},
@@ -118,8 +119,8 @@
     {"id":{"name":"sInventorySelectedItemBox","path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
+    {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
