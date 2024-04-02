@@ -12,7 +12,7 @@ if(invincibilityTimer > 0) {
 }
 
 if(direct == "left") {
-	image_xscale = -abs(image_xscale);
+	image_xscale = abs(image_xscale);
 	
 	if(state == eState.WANDERING || state == eState.HUNTING) {
 		hspeed = -2;	
@@ -21,7 +21,7 @@ if(direct == "left") {
 	}
 	
 } else if(direct == "right") {
-	image_xscale = abs(image_xscale);
+	image_xscale = -abs(image_xscale);
 	
 	if(state == eState.WANDERING || state == eState.HUNTING) {
 		hspeed = 2;	

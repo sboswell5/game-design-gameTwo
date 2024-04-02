@@ -1,7 +1,7 @@
 /*
 	Edit these variables in the "Creation Code" of the object in the room
 */
-rangedObject = -1;
+rangedObject = -1; 
 oMaxHealth = 10;
 
 idle_sprite = -1;
