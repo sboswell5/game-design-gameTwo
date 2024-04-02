@@ -84,6 +84,7 @@
     {"id":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"id":{"name":"sBean","path":"sprites/sBean/sBean.yy",},},
     {"id":{"name":"sInventoryItemBox","path":"sprites/sInventoryItemBox/sInventoryItemBox.yy",},},
+    {"id":{"name":"sSnowball","path":"sprites/sSnowball/sSnowball.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"sDemonGorrilaIdle","path":"sprites/sDemonGorrilaIdle/sDemonGorrilaIdle.yy",},},
     {"id":{"name":"sHealingPotion","path":"sprites/sHealingPotion/sHealingPotion.yy",},},
