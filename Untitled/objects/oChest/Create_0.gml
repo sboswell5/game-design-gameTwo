@@ -9,6 +9,7 @@ interact_radius = 80;
 isInteractable = false;
 interact_give_item = "NULL";
 interact_give_item_amount = 1;
+isKeyChest = false;
 
 state = cState.UNOPENED;
 
@@ -17,5 +18,6 @@ state = cState.UNOPENED;
 enum cState {
 	UNOPENED,
 	WAITING,
-	OPENED
+	OPENED,
+	LOCKED
 }
