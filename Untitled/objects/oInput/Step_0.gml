@@ -44,7 +44,15 @@ if(oPlayer.typing) {
 			}
 			else if(args[0] == "unlock") {
 				unlock_key_chest();
-			} 
+			} else if(args[0] == "nextroom") {
+				if(room_exists(room_next(room))) {
+					room_goto_next();	
+				}
+			} else if(args[0] == "prevroom") {
+				if(room_exists(room_previous(room))) {
+					room_goto_previous();
+				}
+			}
 			else if(args[0] == "give") {
 				amount = 1;
 				
