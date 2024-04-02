@@ -3,7 +3,8 @@ function player_died(){
 		x = 80;
 		y = 520;
 	} else if(room == rm_ice) {
-
+		x = 70;
+		y = 217;
 	}
 	else if(room == rm_hell) {
 		x = 160
