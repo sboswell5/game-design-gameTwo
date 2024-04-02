@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "sDemonGorillaWalk",
   "bbox_bottom": 76,
-  "bbox_left": 0,
+  "bbox_left": 3,
   "bbox_right": 88,
   "bbox_top": 0,
   "bboxMode": 0,
