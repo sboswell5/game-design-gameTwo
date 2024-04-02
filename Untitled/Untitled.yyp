@@ -54,7 +54,6 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oHurtBox","path":"objects/oHurtBox/oHurtBox.yy",},},
     {"id":{"name":"PlayerState","path":"scripts/PlayerState/PlayerState.yy",},},
-    {"id":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"id":{"name":"layer0","path":"sprites/layer0/layer0.yy",},},
     {"id":{"name":"sIce","path":"sprites/sIce/sIce.yy",},},
     {"id":{"name":"hellLayer1","path":"sprites/hellLayer1/hellLayer1.yy",},},
@@ -83,7 +82,6 @@
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"hellLayer5","path":"sprites/hellLayer5/hellLayer5.yy",},},
     {"id":{"name":"sBanana","path":"sprites/sBanana/sBanana.yy",},},
-    {"id":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"id":{"name":"sBean","path":"sprites/sBean/sBean.yy",},},
     {"id":{"name":"sInventoryItemBox","path":"sprites/sInventoryItemBox/sInventoryItemBox.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
@@ -120,7 +118,6 @@
     {"id":{"name":"sInventorySelectedItemBox","path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
   ],
   "templateType": "game",
