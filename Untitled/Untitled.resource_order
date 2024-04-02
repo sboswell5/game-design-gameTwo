@@ -1,11 +1,27 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"JungleWorld","order":4,"path":"folders/Sprites/JungleWorld.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"sBaboonWalk","order":6,"path":"sprites/sBaboonWalk/sBaboonWalk.yy",},
+    {"name":"sIceWall","order":4,"path":"sprites/sIceWall/sIceWall.yy",},
+    {"name":"sIce","order":3,"path":"sprites/sIce/sIce.yy",},
     {"name":"player_died","order":3,"path":"scripts/player_died/player_died.yy",},
+    {"name":"sBananaAnimation","order":10,"path":"sprites/sBananaAnimation/sBananaAnimation.yy",},
     {"name":"sPolarBear","order":1,"path":"sprites/sPolarBear/sPolarBear.yy",},
+    {"name":"layer2","order":2,"path":"sprites/layer2/layer2.yy",},
+    {"name":"sBaboon","order":5,"path":"sprites/sBaboon/sBaboon.yy",},
+    {"name":"sTreasureChestOpening","order":2,"path":"sprites/sTreasureChestOpening/sTreasureChestOpening.yy",},
+    {"name":"sIslandJungle","order":7,"path":"sprites/sIslandJungle/sIslandJungle.yy",},
+    {"name":"sPlatformJungle","order":8,"path":"sprites/sPlatformJungle/sPlatformJungle.yy",},
     {"name":"sSnowball","order":1,"path":"sprites/sSnowball/sSnowball.yy",},
+    {"name":"layer4","order":4,"path":"sprites/layer4/layer4.yy",},
     {"name":"check_vertical_line_collision","order":1,"path":"scripts/check_vertical_line_collision/check_vertical_line_collision.yy",},
+    {"name":"sTreasureChestIdle","order":1,"path":"sprites/sTreasureChestIdle/sTreasureChestIdle.yy",},
+    {"name":"layer1","order":1,"path":"sprites/layer1/layer1.yy",},
     {"name":"is_on_same_platform","order":2,"path":"scripts/is_on_same_platform/is_on_same_platform.yy",},
+    {"name":"layer3","order":3,"path":"sprites/layer3/layer3.yy",},
     {"name":"unlock_key_chest","order":4,"path":"scripts/unlock_key_chest/unlock_key_chest.yy",},
+    {"name":"sBanana","order":9,"path":"sprites/sBanana/sBanana.yy",},
   ],
 }

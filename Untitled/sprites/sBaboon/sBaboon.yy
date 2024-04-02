@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "layer0",
-  "bbox_bottom": 799,
+  "name": "sBaboon",
+  "bbox_bottom": 86,
   "bbox_left": 0,
-  "bbox_right": 1499,
-  "bbox_top": 0,
+  "bbox_right": 93,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d52335ff-e05e-444a-a25e-8d754f32eb83",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56fb2ede-dcd0-498f-ad43-b30b50dfc6fd",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 800,
+  "height": 88,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7ee712ad-8322-418e-a569-557130ac1d58","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a4621ba-6ba1-4402-bae5-a592c6c20bbb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "layer0",
+    "name": "sBaboon",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d52335ff-e05e-444a-a25e-8d754f32eb83","path":"sprites/layer0/layer0.yy",},},},"Disabled":false,"id":"d5817ef5-2d23-46b1-86f5-2e64db2a5293","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"56fb2ede-dcd0-498f-ad43-b30b50dfc6fd","path":"sprites/sBaboon/sBaboon.yy",},},},"Disabled":false,"id":"8fc6fec0-dc4e-4230-b895-b0c668ad79fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1500,
+  "width": 100,
 }
