@@ -11,10 +11,10 @@ if(invincibilityTimer > 0) {
 	if(invincibilityTimer <= invincibilityTimeMax - flashForFrames) isHurt = false;
 }
 
-if(dir == "left") {
+if(state == "left") {
 	hspeed = -2;
 	image_xscale = -abs(image_xscale);
-} else if(dir == "right") {
+} else if(state == "right") {
 	hspeed = 2;	
 	image_xscale = abs(image_xscale);
 }
