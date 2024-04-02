@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "layer_Ground",
   "bbox_bottom": 799,
-  "bbox_left": 0,
+  "bbox_left": 1,
   "bbox_right": 3199,
-  "bbox_top": 309,
+  "bbox_top": 501,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cff130cc-0620-4778-a665-6b306ed608c9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0fe13d1-1270-41bb-ad0c-134be3651a1d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 800,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a22b6153-f074-47c5-982d-f173a1fa11ac","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"819ff4ed-56c2-4850-b525-519b75e336db","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cff130cc-0620-4778-a665-6b306ed608c9","path":"sprites/layer_Ground/layer_Ground.yy",},},},"Disabled":false,"id":"10c615b1-4439-45dd-910d-1a87b3a0fd22","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d0fe13d1-1270-41bb-ad0c-134be3651a1d","path":"sprites/layer_Ground/layer_Ground.yy",},},},"Disabled":false,"id":"a8f5a5fe-c4da-420c-90ce-cdff43929e9b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
