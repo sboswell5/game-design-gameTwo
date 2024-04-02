@@ -64,14 +64,14 @@ if(randomStateTimer <= 0) {
 	
 	if(state == eState.WANDERING && irandom_range(0,1) >= 1) {
 		state = eState.IDLE;
-	} else if(state == eState.IDLE && irandom_range(0,1) >= 1) {
+	} else if(state == eState.IDLE && irandom_range(0,5) >= 1) {
 		state = eState.WANDERING;
-	} else if(state == eState.HUNTING && irandom_range(0,1) >= 1 && canAttackFromRange) {
+	} else if(state == eState.HUNTING && irandom_range(0,3) >= 1 && canAttackFromRange) {
 		state = eState.ATTACKING_RANGED;
 		isRangedAttacking = true;
 	}
 	
-	randomStateTimer = irandom_range(0, randomStateMaxTimer);
+	randomStateTimer = irandom_range(100, randomStateMaxTimer);
 } else {
 	randomStateTimer--;	
 }
@@ -131,7 +131,8 @@ if(isMeleeAttacking) {
 	isMeleeAttacking = false;
 } else if(isRangedAttacking) {
 	if(object_exists(rangedObject)) {
-		instance_create_layer(x,y,"Instances", rangedObject);
+		obj = instance_create_layer(x,y,"Instances", rangedObject);
+		obj.direction = point_direction(x,y,oPlayer.x, oPlayer.y);
 	}
 	isRangedAttacking = false;
 }

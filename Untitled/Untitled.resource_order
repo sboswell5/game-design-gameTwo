@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oBananaProjectile","order":1,"path":"objects/oBananaProjectile/oBananaProjectile.yy",},
+  ],
 }
