@@ -33,7 +33,6 @@ if(!typing) {
 	if (can_jump-- > 0 && keyboard_check(global.jump_key)){
 		can_jump = 0;
 	    vspd = vspdJump;
-		show_debug_message($"JUMPED! {state}");
 		state = PlayerState.JUMPING;
 		image_index = 0;
 	}
@@ -84,7 +83,6 @@ x+=hspd;
 if (place_meeting(x, y+vspd, global.collision_objects)){
 	if(vspd > 0.0) {
 		can_jump = 10;
-			show_debug_message($"RESET JUMP {state}");
 		if(state == PlayerState.JUMPING) {
 			state = PlayerState.IDLE;
 		}
@@ -130,6 +128,8 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			cBox.knockback_strength = holding.options.knockbackStrength;
 			cBox.damage =  holding.options.attackDamage + (holding.options.attackDamage * attackBoost);
 			
+			audio_play_sound(soundSwingSword, 1, false);
+			
 		} else if(holding.options.attackType == AttackType.RANGED) {
 			// No time to add this :(
 		}
@@ -174,7 +174,6 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 
 sprite = getPlayerSprite(state, holding);
 if(state != PlayerState.JUMPING)
-show_debug_message($"GET {state}")
 try {
 	if(sprite_exists(sprite)) {
 		sprite_index = sprite;

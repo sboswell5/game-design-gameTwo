@@ -15,12 +15,12 @@ if(isInteractable) {
 			else if(state == cState.UNOPENED) {
 				state = cState.WAITING;
 				sprite_index = sTreasureChestOpening;
+				audio_play_sound(soundChestOpening, 1, false);
 			} else if(state == cState.WAITING) {
 				item = oInventory.inventory.item_add(interact_give_item, interact_give_item_amount);
 				
 				if(item != noone) {
 					
-					show_debug_message("Interacted!");
 					has_been_interacted = true;
 					
 					state = cState.OPENED;

@@ -10,9 +10,11 @@ text = [
 	{"type": "header", "text": "[Biome Quest]"},
 	{"type": "header", "text": "Credits"},
 	{"type": "subheader", "text": "Sounds"},
-	{"type": "body", "text": "Campfire - pixabay.com @SoundsForYou"},
+	{"type": "body", "text": "Chest Open - youtube.com @PacTube"},
+	{"type": "body", "text": "Swing - youtube.com @Jochi SFX"},
 	{"type": "subheader", "text": "Code"},
 	{"type": "body", "text": "Inventory - youtube.com @GameMaker"},
+	{"type": "body", "text": "Parralax Background - gamemaker.io @Mark Alexander"},
 ]
 
 height = 0;

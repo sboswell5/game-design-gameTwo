@@ -2,6 +2,7 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"fn_Ubuntu_small","order":2,"path":"fonts/fn_Ubuntu_small/fn_Ubuntu_small.yy",},
+    {"name":"soundSwingSword","order":1,"path":"sounds/soundSwingSword/soundSwingSword.yy",},
     {"name":"rm_credits","order":1,"path":"rooms/rm_credits/rm_credits.yy",},
     {"name":"oCredits","order":1,"path":"objects/oCredits/oCredits.yy",},
     {"name":"fn_Ubuntu","order":3,"path":"fonts/fn_Ubuntu/fn_Ubuntu.yy",},
