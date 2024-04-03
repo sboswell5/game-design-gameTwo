@@ -1,9 +1,13 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"sDevilAtk","order":3,"path":"sprites/sDevilAtk/sDevilAtk.yy",},
     {"name":"oSpikes","order":1,"path":"objects/oSpikes/oSpikes.yy",},
     {"name":"sPolarBearIdle","order":1,"path":"sprites/sPolarBearIdle/sPolarBearIdle.yy",},
     {"name":"sSpike","order":1,"path":"sprites/sSpike/sSpike.yy",},
     {"name":"sMudball","order":1,"path":"sprites/sMudball/sMudball.yy",},
+    {"name":"oAirProjectile","order":2,"path":"objects/oAirProjectile/oAirProjectile.yy",},
+    {"name":"sDevilWalk","order":1,"path":"sprites/sDevilWalk/sDevilWalk.yy",},
+    {"name":"sDevilIdle","order":2,"path":"sprites/sDevilIdle/sDevilIdle.yy",},
   ],
 }
