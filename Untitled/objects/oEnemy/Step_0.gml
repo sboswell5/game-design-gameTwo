@@ -31,7 +31,7 @@ if(direct == "left") {
 	
 }
 
-if(place_meeting(x + hspeed, y, global.collision_objects)) {
+if(place_meeting(x + hspeed - sprite_width / 2, y, global.collision_objects)) {
 	if(direct == "left") {
 		direct = "right";
 	} else {
