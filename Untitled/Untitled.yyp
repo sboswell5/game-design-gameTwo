@@ -54,6 +54,7 @@
     {"id":{"name":"layer_BackMtns","path":"sprites/layer_BackMtns/layer_BackMtns.yy",},},
     {"id":{"name":"keytostring","path":"scripts/keytostring/keytostring.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
+    {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},},
     {"id":{"name":"oHurtBox","path":"objects/oHurtBox/oHurtBox.yy",},},
     {"id":{"name":"PlayerState","path":"scripts/PlayerState/PlayerState.yy",},},
     {"id":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
