@@ -5,4 +5,5 @@
     {"name":"oSpikes","order":2,"path":"objects/oSpikes/oSpikes.yy",},
     {"name":"oBananaProjectile","order":1,"path":"objects/oBananaProjectile/oBananaProjectile.yy",},
   ],
+  "ResourceOrderSettings": [],
 }
