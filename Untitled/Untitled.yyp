@@ -91,6 +91,7 @@
     {"id":{"name":"layer_Sky","path":"sprites/layer_Sky/layer_Sky.yy",},},
     {"id":{"name":"sPlayerRunningSword","path":"sprites/sPlayerRunningSword/sPlayerRunningSword.yy",},},
     {"id":{"name":"sPlatformJungle","path":"sprites/sPlatformJungle/sPlatformJungle.yy",},},
+    {"id":{"name":"sPolarBearAttack","path":"sprites/sPolarBearAttack/sPolarBearAttack.yy",},},
     {"id":{"name":"sHellPlatform4","path":"sprites/sHellPlatform4/sHellPlatform4.yy",},},
     {"id":{"name":"sPlayerIdleSword","path":"sprites/sPlayerIdleSword/sPlayerIdleSword.yy",},},
     {"id":{"name":"get_item","path":"scripts/get_item/get_item.yy",},},
