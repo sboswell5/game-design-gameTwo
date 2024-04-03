@@ -31,7 +31,7 @@ invincibilityTimer = 0;
 flashForFrames = 10;
 
 randomStateTimer = 0;
-randomStateMaxTimer = 300;
+randomStateMaxTimer = 150;
 
 grv=0.5;
 vspd=0;

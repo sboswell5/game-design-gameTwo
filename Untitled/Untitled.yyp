@@ -113,6 +113,7 @@
     {"id":{"name":"sTreasureChestIdle","path":"sprites/sTreasureChestIdle/sTreasureChestIdle.yy",},},
     {"id":{"name":"heal_object","path":"scripts/heal_object/heal_object.yy",},},
     {"id":{"name":"oHellPlatform4","path":"objects/oHellPlatform4/oHellPlatform4.yy",},},
+    {"id":{"name":"oBananaProjectile","path":"objects/oBananaProjectile/oBananaProjectile.yy",},},
     {"id":{"name":"layer1","path":"sprites/layer1/layer1.yy",},},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
     {"id":{"name":"sPlayerJumping","path":"sprites/sPlayerJumping/sPlayerJumping.yy",},},
@@ -141,8 +142,8 @@
     {"id":{"name":"sInventorySelectedItemBox","path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
+    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
   ],
   "templateType": "game",

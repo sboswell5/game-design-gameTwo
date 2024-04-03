@@ -38,5 +38,8 @@
     {"name":"oDoor","order":3,"path":"objects/oDoor/oDoor.yy",},
     {"name":"oInput","order":2,"path":"objects/oInput/oInput.yy",},
     {"name":"oMessage","order":1,"path":"objects/oMessage/oMessage.yy",},
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oBananaProjectile","order":1,"path":"objects/oBananaProjectile/oBananaProjectile.yy",},
   ],
 }
