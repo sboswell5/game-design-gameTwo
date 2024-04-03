@@ -34,3 +34,5 @@ if(global.debug) {
 		i++;
 	}
 }
+
+draw_line(x + sprite_width * image_xscale / 2, y, x + sprite_width * image_xscale / 2, y + 20);
