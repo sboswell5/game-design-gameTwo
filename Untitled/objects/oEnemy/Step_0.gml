@@ -31,7 +31,7 @@ if(direct == "left") {
 	
 }
 
-if(place_meeting(x + hspeed, y, global.collision_objects)) {
+if(place_meeting(x + hspeed, y - 16, global.collision_objects)) {
 	if(direct == "left") {
 		direct = "right";
 	} else {
@@ -39,17 +39,7 @@ if(place_meeting(x + hspeed, y, global.collision_objects)) {
 	}
 }
 
-/*
-if(!place_meeting(x + hspeed, y, global.collision_objects) && !place_meeting(x + hspeed - sprite_width, y + 16, global.collision_objects)) {
-	if(direct == "left") {
-		direct = "right";	
-	} else {
-		direct = "left";
-	}
-}
-*/
-
-if(!place_meeting(x + hspeed, y, global.collision_objects) && !place_meeting(x + hspeed - sprite_width, y + 16, global.collision_objects)) {
+if(!collision_line(x - sprite_width / 2, y, x - sprite_width / 2, y + sprite_height, global.collision_objects, false, true)) {
 	if(direct == "left") {
 		direct = "right";	
 	} else {

@@ -13,8 +13,8 @@ shader_reset();
 
 if(global.debug) {
 		
-	dist = point_distance(x, y, oPlayer.x, oPlayer.y);
-	_dir = point_direction(x, y, oPlayer.x, oPlayer.y);
+	dist = point_distance(x,y, oPlayer.x, oPlayer.y);
+	_dir = point_direction(x,y, oPlayer.x, oPlayer.y);
 	
 	current_dist_check = 0;
 	isOnSame = true;
@@ -22,6 +22,10 @@ if(global.debug) {
 
 	i = 1;
 	_x = lengthdir_x(step, _dir);
+
+	if(abs(y - oPlayer.y) > sprite_height) {
+		isOnSame = false;	
+	}
 
 	while(current_dist_check < dist && isOnSame) {
 		
@@ -33,6 +37,8 @@ if(global.debug) {
 		current_dist_check+=step;
 		i++;
 	}
+	show_debug_message(isOnSame);
+	draw_line(x - sprite_width / 2, y, x - sprite_width / 2, y + sprite_height);
 }
 
-draw_line(x + sprite_width * image_xscale / 2, y, x + sprite_width * image_xscale / 2, y + 20);
+
