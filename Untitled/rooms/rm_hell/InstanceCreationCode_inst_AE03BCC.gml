@@ -3,6 +3,7 @@
 */
 rangedObject = -1; 
 oMaxHealth = 50;
+isBoss = true;
 
 idle_sprite = sDevilIdle;
 walking_sprite = sDevilWalk;

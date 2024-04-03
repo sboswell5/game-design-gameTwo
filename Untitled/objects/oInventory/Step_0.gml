@@ -1,3 +1,7 @@
+if(room == rm_credits) {
+	return;
+}
+
 _keyOne = keyboard_check_pressed(ord("1"));
 _keyTwo = keyboard_check_pressed(ord("2"));
 _keyThree = keyboard_check_pressed(ord("3"));

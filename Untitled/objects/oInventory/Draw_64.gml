@@ -1,3 +1,7 @@
+if(room == rm_credits) {
+	return;
+}
+
 if(!shown) {
 	return;
 }
