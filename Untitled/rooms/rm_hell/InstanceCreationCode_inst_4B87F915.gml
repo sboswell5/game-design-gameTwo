@@ -1,7 +1,7 @@
 /*
 	Edit these variables in the "Creation Code" of the object in the room
 */
-rangedObject = sAirProjectile; 
+rangedObject = oAirProjectile; 
 oMaxHealth = 10;
 
 idle_sprite = sDemonGorillaIdle;
@@ -14,10 +14,10 @@ attacking_ranged_sprite = sDemonGorillaAtk;
 // This will typically need to just be the walking sprite
 fallback_sprite = sDemonGorillaIdle;
 
-melee_distance = 5;
+melee_distance = 2;
 damage = 5;
 
-canAttackFromRange = false;
+canAttackFromRange = true;
 
 /* 
 	Do not change anything after this!
