@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sWoodSpike",
+  "name": "sSpike",
   "bbox_bottom": 29,
   "bbox_left": 0,
   "bbox_right": 29,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f563b78d-f506-478c-88e3-f350423645d6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2f0f349-2b72-43db-a726-a3f100a2f129",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 30,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"21cee8ca-963a-4957-8a83-365ee4741ca9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24d0cbf0-5551-4fc9-a1c7-53d5aa6d1035","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sWoodSpike",
+    "name": "sSpike",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f563b78d-f506-478c-88e3-f350423645d6","path":"sprites/sWoodSpike/sWoodSpike.yy",},},},"Disabled":false,"id":"ac8fa5d4-8f5f-46bd-8051-17f604b922ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c2f0f349-2b72-43db-a726-a3f100a2f129","path":"sprites/sSpike/sSpike.yy",},},},"Disabled":false,"id":"43e9a9b8-fdfe-45ba-9a07-87c0d6ee9d9f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

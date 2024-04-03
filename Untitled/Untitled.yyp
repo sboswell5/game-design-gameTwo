@@ -85,6 +85,7 @@
     {"id":{"name":"sIslandJungle","path":"sprites/sIslandJungle/sIslandJungle.yy",},},
     {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},},
     {"id":{"name":"sAirProjectile","path":"sprites/sAirProjectile/sAirProjectile.yy",},},
+    {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"layer_Sky","path":"sprites/layer_Sky/layer_Sky.yy",},},
     {"id":{"name":"sPlayerRunningSword","path":"sprites/sPlayerRunningSword/sPlayerRunningSword.yy",},},
@@ -142,9 +143,9 @@
     {"id":{"name":"sInventorySelectedItemBox","path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
     {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
-    {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

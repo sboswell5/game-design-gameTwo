@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWoodSpike",
-    "path": "sprites/sWoodSpike/sWoodSpike.yy",
+    "name": "sSpike",
+    "path": "sprites/sSpike/sSpike.yy",
   },
   "spriteMaskId": null,
   "visible": true,
