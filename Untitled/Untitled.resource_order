@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"sPolarBearIdle","order":1,"path":"sprites/sPolarBearIdle/sPolarBearIdle.yy",},
+    {"name":"sMudball","order":1,"path":"sprites/sMudball/sMudball.yy",},
+  ],
 }
