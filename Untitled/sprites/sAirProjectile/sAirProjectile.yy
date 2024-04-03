@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2cf8dbad-4625-4d1f-ac64-668328111c98","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 4,
   "parent": {
     "name": "hellworld",
     "path": "folders/Sprites/hellworld.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 10,
-    "yorigin": 40,
+    "yorigin": 20,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

@@ -1,3 +1,8 @@
+if(room == rm_credits) {
+	return;
+}
+
+
 if(global.debug) {
 	draw_set_color(c_black);
 	draw_rectangle(x_offset, y_offset, x_offset + width, y_offset + height, false);

@@ -15,7 +15,7 @@ attacking_ranged_sprite = -1;
 // This will typically need to just be the walking sprite
 fallback_sprite = sBaboonWalk;
 
-melee_distance = 5;
+melee_distance = 70;
 damage = 5;
 
 canAttackFromRange = true;

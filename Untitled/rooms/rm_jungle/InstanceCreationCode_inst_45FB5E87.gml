@@ -11,7 +11,7 @@ attacking_ranged_sprite = -1;
 // This will typically need to just be the walking sprite
 fallback_sprite = sMudball;
 
-melee_distance = 5;
+melee_distance = 20;
 damage = 5;
 
 canAttackFromRange = false;

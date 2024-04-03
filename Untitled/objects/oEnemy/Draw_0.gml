@@ -40,7 +40,7 @@ if(global.debug) {
 		current_dist_check+=step;
 		i++;
 	}
-	show_debug_message(isOnSame);
+	
 	draw_line(x - sprite_width / 2, y, x - sprite_width / 2, y + sprite_height);
 }
 

@@ -45,11 +45,20 @@ if(oPlayer.typing) {
 			}
 			if(args[0] == "god") {
 				oPlayer.godMode = oPlayer.godMode ? false : true;
-			}
-			else if(args[0] == "restartgame") {
+			} else if(args[0] == "boss") {
+				if(room == rm_ice) {
+					oPlayer.x = 5300;
+					oPlayer.y = 200;
+				} else if(room == rm_jungle) {
+					oPlayer.x = 5300;
+					oPlayer.y = 500;
+				} else if(room == rm_hell) {
+					oPlayer.x = 4000;
+					oPlayer.y = 450;
+				}
+			} else if(args[0] == "restartgame") {
 				game_restart();
-			}
-			else if(args[0] == "unlock") {
+			} else if(args[0] == "unlock") {
 				unlock_key_chest();
 			} else if(args[0] == "nextroom") {
 				if(room_exists(room_next(room))) {
