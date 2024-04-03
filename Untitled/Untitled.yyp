@@ -118,7 +118,6 @@
     {"id":{"name":"oBananaProjectile","path":"objects/oBananaProjectile/oBananaProjectile.yy",},},
     {"id":{"name":"layer1","path":"sprites/layer1/layer1.yy",},},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
-    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"sPlayerJumping","path":"sprites/sPlayerJumping/sPlayerJumping.yy",},},
     {"id":{"name":"oCollisionBox","path":"objects/oCollisionBox/oCollisionBox.yy",},},
     {"id":{"name":"is_overlap","path":"scripts/is_overlap/is_overlap.yy",},},
@@ -146,8 +145,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
-    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
+    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

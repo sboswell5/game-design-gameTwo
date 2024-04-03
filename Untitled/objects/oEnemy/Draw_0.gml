@@ -9,6 +9,8 @@ draw_text(x, y - 50, isPlayerOnSamePlatform);
 draw_text(x, y - 70, direct);
 draw_text(x, y - 90, randomStateTimer);
 draw_text(x, y - 120, state);
+draw_text(x, y - 140, string(point_distance(oPlayer.x, oPlayer.y, x, y)));
+
 shader_reset();
 
 if(global.debug) {

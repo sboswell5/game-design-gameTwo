@@ -1,3 +1,7 @@
+if(oHealth == undefined) {
+	oHealth = oMaxHealth;
+}
+
 if(oHealth <= 0) {
 	instance_destroy();	
 }
@@ -83,7 +87,7 @@ if(isPlayerOnSamePlatform && state != eState.ATTACKING_RANGED && state != eState
 	state = eState.WANDERING;
 }
 
-if(state == eState.HUNTING && distance_to_object(oPlayer) < melee_distance) {
+if(state == eState.HUNTING && point_distance(oPlayer.x, oPlayer.y, x, y) < melee_distance) {
 	state = eState.ATTACKING_MELEE;
 	isMeleeAttacking = true;
 }

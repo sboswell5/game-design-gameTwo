@@ -1,3 +1,3 @@
 isInteractable = true;
-interact_give_item = "sword";
-interact_give_item_amount = 1;
+interact_give_item = choose("healingPotion", "bean");
+interact_give_item_amount = 2;
