@@ -151,9 +151,6 @@
     {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
-    {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
-    {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
-    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
