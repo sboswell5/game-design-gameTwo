@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sPlayerAttackingSword",
-  "bbox_bottom": 52,
+  "bbox_bottom": 65,
   "bbox_left": -2,
   "bbox_right": 22,
-  "bbox_top": 0,
+  "bbox_top": 13,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -92,8 +92,13 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
+<<<<<<< HEAD
+    "xorigin": 10,
+    "yorigin": 66,
+=======
     "xorigin": 21,
     "yorigin": 33,
+>>>>>>> 960fc78d0af18152fd0e044718e67a41dc8cfb66
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
