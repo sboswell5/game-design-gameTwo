@@ -159,6 +159,16 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 			m.text_message = $"You have consumed a {item.displayName} and recieved {attackBoost*100}% more damage for a few seconds!";
 			
 		}
+		else if(holding.name = "bean"){
+			attackBoost = 0.40;
+			attackBoostTimer = 1500;
+			oInventory.inventory.item_subtract("bean",1);
+			
+			m = instance_create_layer(0,0, "Instances", oMessage);
+			item = get_item("bean");
+			m.text_message = $"You have consumed a {item.displayName} and recieved {attackBoost*100}% more damage for a few seconds!";
+			
+		}
 	}
 }
 
