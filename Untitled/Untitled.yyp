@@ -54,6 +54,7 @@
     {"id":{"name":"layer_BackMtns","path":"sprites/layer_BackMtns/layer_BackMtns.yy",},},
     {"id":{"name":"keytostring","path":"scripts/keytostring/keytostring.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
+    {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},},
     {"id":{"name":"oHurtBox","path":"objects/oHurtBox/oHurtBox.yy",},},
     {"id":{"name":"PlayerState","path":"scripts/PlayerState/PlayerState.yy",},},
     {"id":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"sIslandJungle","path":"sprites/sIslandJungle/sIslandJungle.yy",},},
     {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},},
     {"id":{"name":"sAirProjectile","path":"sprites/sAirProjectile/sAirProjectile.yy",},},
+    {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"layer_Sky","path":"sprites/layer_Sky/layer_Sky.yy",},},
     {"id":{"name":"sPlayerRunningSword","path":"sprites/sPlayerRunningSword/sPlayerRunningSword.yy",},},
@@ -143,10 +145,10 @@
     {"id":{"name":"sInventorySelectedItemBox","path":"sprites/sInventorySelectedItemBox/sInventorySelectedItemBox.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
-    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
+    {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

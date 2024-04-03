@@ -18,15 +18,15 @@ if(global.debug) {
 	
 	current_dist_check = 0;
 	isOnSame = true;
-	step = sprite_get_width(oPlayer.sprite_index);
+	step = 10;
 
 	i = 1;
 	_x = lengthdir_x(step, _dir);
 
 	while(current_dist_check < dist && isOnSame) {
 		
-		draw_line(x+_x * i, 0, x+ _x *i, room_height);
-		if(!check_vertical_line_collision(x+_x * i, 0, x+ _x * i, room_height,global.collision_objects)) {
+		draw_line(x+_x * i, y, x+ _x *i, y + sprite_height);
+		if(!check_vertical_line_collision(x+_x * i, y, x+ _x * i, y + sprite_height,global.collision_objects)) {
 				isOnSame = false;
 				break;
 		}
@@ -34,3 +34,5 @@ if(global.debug) {
 		i++;
 	}
 }
+
+draw_line(x + sprite_width * image_xscale / 2, y, x + sprite_width * image_xscale / 2, y + 20);
