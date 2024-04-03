@@ -4,7 +4,7 @@
 rangedObject = -1;
 oMaxHealth = 10;
 
-idle_sprite = sPolarBear;
+idle_sprite = sPolarBearIdle;
 walking_sprite = sPolarBear;
 hunting_sprite = sPolarBear; // Typically the same as the walking sprite but can be changed
 attacking_melee_sprite = sPolarBearAttack;

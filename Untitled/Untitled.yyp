@@ -33,11 +33,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sDemonGorillaChest1.png","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sDemonGorillaChest2.png","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sDemonGorillaChest3.pdn","CopyToMask":-1,"filePath":"datafiles",},
-  ],
+  "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -66,6 +62,7 @@
     {"id":{"name":"hellLayer1","path":"sprites/hellLayer1/hellLayer1.yy",},},
     {"id":{"name":"player_died","path":"scripts/player_died/player_died.yy",},},
     {"id":{"name":"sDemonGorillaAtk","path":"sprites/sDemonGorillaAtk/sDemonGorillaAtk.yy",},},
+    {"id":{"name":"sPolarBearIdle","path":"sprites/sPolarBearIdle/sPolarBearIdle.yy",},},
     {"id":{"name":"sPlayerRunning","path":"sprites/sPlayerRunning/sPlayerRunning.yy",},},
     {"id":{"name":"sFireBean","path":"sprites/sFireBean/sFireBean.yy",},},
     {"id":{"name":"damage_object","path":"scripts/damage_object/damage_object.yy",},},
