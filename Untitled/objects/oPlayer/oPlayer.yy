@@ -32,7 +32,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPlayerIdle",
+    "path": "sprites/sPlayerIdle/sPlayerIdle.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
