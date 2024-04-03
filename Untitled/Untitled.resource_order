@@ -3,5 +3,7 @@
   "ResourceOrderSettings": [
     {"name":"sPolarBearIdle","order":1,"path":"sprites/sPolarBearIdle/sPolarBearIdle.yy",},
     {"name":"sMudball","order":1,"path":"sprites/sMudball/sMudball.yy",},
+    {"name":"sTitle","order":2,"path":"sprites/sTitle/sTitle.yy",},
+    {"name":"rm_title","order":1,"path":"rooms/rm_title/rm_title.yy",},
   ],
 }
