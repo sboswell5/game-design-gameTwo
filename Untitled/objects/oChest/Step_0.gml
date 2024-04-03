@@ -26,7 +26,7 @@ if(isInteractable) {
 					state = cState.OPENED;
 					
 					m = instance_create_layer(0,0, "Instances", oMessage);
-					m.text_message = $"You have collected {interact_give_item_amount} {item.options.displayName}";
+					m.text_message = $"You have collected {interact_give_item_amount} {item.options.displayName}. {item.options.extraMessage}";
 				} else {
 					m = instance_create_layer(0,0, "Instances", oMessage);
 					m.text_message = "Your inventory is full. Remove an item by holding left click on the item and dragging it to the trash";

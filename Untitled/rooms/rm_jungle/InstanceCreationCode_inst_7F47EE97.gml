@@ -2,7 +2,7 @@
 	Edit these variables in the "Creation Code" of the object in the room
 */
 rangedObject = oBananaProjectile; 
-oMaxHealth = 10;
+oMaxHealth = 40;
 isBoss = true;
 
 idle_sprite = sBaboon;

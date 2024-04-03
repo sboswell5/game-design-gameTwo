@@ -7,3 +7,5 @@ global.collision_objects = [oWall, oIce, oIceWall, oIslandJungle, oPlatformJungl
 global.deceleration_objects = [oIce, oIslandJungle];
 
 global.debug = false;
+
+global.playerHealth = 50;

@@ -15,7 +15,7 @@ attacking_ranged_sprite = -1;
 // This will typically need to just be the walking sprite
 fallback_sprite = sDevilIdle;
 
-melee_distance = 20;
+melee_distance = 30;
 damage = 7;
 
 canAttackFromRange = false;

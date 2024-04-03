@@ -1,0 +1,1 @@
+damage_object(oPlayer, 5);

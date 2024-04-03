@@ -2,7 +2,7 @@
 	Edit these variables in the "Creation Code" of the object in the room
 */
 rangedObject = -1;
-oMaxHealth = 20;
+oMaxHealth = 25;
 isBoss = true;
 
 idle_sprite = sPolarBearIdle;

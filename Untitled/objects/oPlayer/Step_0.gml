@@ -173,7 +173,6 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 }
 
 sprite = getPlayerSprite(state, holding);
-if(state != PlayerState.JUMPING)
 try {
 	if(sprite_exists(sprite)) {
 		sprite_index = sprite;

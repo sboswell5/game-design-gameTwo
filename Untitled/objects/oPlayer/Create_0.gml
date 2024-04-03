@@ -1,5 +1,5 @@
 oMaxHealth = 50;
-oHealth = oMaxHealth;
+oHealth = global.playerHealth;
 
 isHurt = false;
 invincibilityTimeMax = 20;
