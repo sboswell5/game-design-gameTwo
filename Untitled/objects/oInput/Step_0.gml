@@ -39,6 +39,9 @@ if(oPlayer.typing) {
 				room_persistent = false;
 				room_restart();
 			}
+			if(args[0] == "god") {
+				oPlayer.godMode = oPlayer.godMode ? false : true;
+			}
 			else if(args[0] == "restartgame") {
 				game_restart();
 			}

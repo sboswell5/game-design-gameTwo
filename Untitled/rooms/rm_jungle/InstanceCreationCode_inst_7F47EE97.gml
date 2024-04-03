@@ -3,6 +3,7 @@
 */
 rangedObject = oBananaProjectile; 
 oMaxHealth = 10;
+isBoss = true;
 
 idle_sprite = sBaboon;
 walking_sprite = sBaboonWalk;

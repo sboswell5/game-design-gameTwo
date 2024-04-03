@@ -13,8 +13,6 @@ isKeyChest = false;
 
 state = cState.UNOPENED;
 
-
-
 enum cState {
 	UNOPENED,
 	WAITING,

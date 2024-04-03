@@ -1,10 +1,18 @@
-if(distance_to_object(oPlayer) <= 16) {
-	if(goto_room == -1 || goto_x == -1 || goto_y == -1) {
-		show_debug_message("Room, x, or y variables were not set!");
-	} else {
-		show_debug_message("going to room!")
-		oPlayer.x = goto_x;
-		oPlayer.y = goto_y;
-		room = goto_room;
+if(isInteractable) {
+	interact_message = $"Press \"{keytostring(global.interact_key)}\" to interact";
+
+	// Interaction checks
+	if(keyboard_check_pressed(global.interact_key)) {
+		if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
+			if(oInventory.inventory.item_has("key", 1)) {
+				oPlayer.x = goto_x;
+				oPlayer.y = goto_y;
+				room = goto_room;
+				oInventory.inventory.item_subtract("key", 1);
+			} else {
+				m = instance_create_layer(0,0, "Instances", oMessage);
+				m.text_message = $"This door is locked!";
+			}
+		}
 	}
-	}
+}

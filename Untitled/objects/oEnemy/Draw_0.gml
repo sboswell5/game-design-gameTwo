@@ -4,6 +4,9 @@ if(isHurt) {
 
 draw_self();
 
+shader_reset();
+
+
 if(global.debug) {
 
 	draw_text(x, y - 30, oHealth);
@@ -12,9 +15,6 @@ if(global.debug) {
 	draw_text(x, y - 90, randomStateTimer);
 	draw_text(x, y - 120, state);
 	draw_text(x, y - 140, string(point_distance(oPlayer.x, oPlayer.y, x, y)));
-
-	shader_reset();
-
 	
 	dist = point_distance(x,y, oPlayer.x, oPlayer.y);
 	_dir = point_direction(x,y, oPlayer.x, oPlayer.y);
