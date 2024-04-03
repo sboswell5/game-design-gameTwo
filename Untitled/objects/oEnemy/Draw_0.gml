@@ -4,17 +4,18 @@ if(isHurt) {
 
 draw_self();
 
-draw_text(x, y - 30, oHealth);
-draw_text(x, y - 50, isPlayerOnSamePlatform);
-draw_text(x, y - 70, direct);
-draw_text(x, y - 90, randomStateTimer);
-draw_text(x, y - 120, state);
-draw_text(x, y - 140, string(point_distance(oPlayer.x, oPlayer.y, x, y)));
-
-shader_reset();
-
 if(global.debug) {
-		
+
+	draw_text(x, y - 30, oHealth);
+	draw_text(x, y - 50, isPlayerOnSamePlatform);
+	draw_text(x, y - 70, direct);
+	draw_text(x, y - 90, randomStateTimer);
+	draw_text(x, y - 120, state);
+	draw_text(x, y - 140, string(point_distance(oPlayer.x, oPlayer.y, x, y)));
+
+	shader_reset();
+
+	
 	dist = point_distance(x,y, oPlayer.x, oPlayer.y);
 	_dir = point_direction(x,y, oPlayer.x, oPlayer.y);
 	
