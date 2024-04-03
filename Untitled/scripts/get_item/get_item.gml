@@ -8,7 +8,7 @@ function get_item(argument0){
 		
 		case "key":
 			value = { sprite: sKey, displayName: "Key"};
-		
+			break;
 		case "healingPotion":
 			value = { sprite: sHealingPotion, displayName: "Healing Potion", isConsumable: true};
 			break;

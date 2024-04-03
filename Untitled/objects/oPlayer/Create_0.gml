@@ -32,3 +32,5 @@ sprite_test = getPlayerSprite(state, holding);
 
 attackBoost = 0; 
 attackBoostTimer = 0;
+
+godMode = false;

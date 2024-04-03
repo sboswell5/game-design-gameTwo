@@ -3,6 +3,7 @@
 */
 rangedObject = -1;
 oMaxHealth = 20;
+isBoss = true;
 
 idle_sprite = sPolarBearIdle;
 walking_sprite = sPolarBear;

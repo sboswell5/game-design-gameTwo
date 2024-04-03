@@ -3,6 +3,7 @@
 */
 rangedObject = -1; 
 oMaxHealth = 10;
+isBoss = false;
 
 idle_sprite = -1;
 walking_sprite = -1;

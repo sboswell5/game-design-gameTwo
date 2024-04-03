@@ -88,6 +88,7 @@
     {"id":{"name":"sAirProjectile","path":"sprites/sAirProjectile/sAirProjectile.yy",},},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
+    {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"layer_Sky","path":"sprites/layer_Sky/layer_Sky.yy",},},
     {"id":{"name":"sPlayerRunningSword","path":"sprites/sPlayerRunningSword/sPlayerRunningSword.yy",},},
     {"id":{"name":"sPlatformJungle","path":"sprites/sPlatformJungle/sPlatformJungle.yy",},},
