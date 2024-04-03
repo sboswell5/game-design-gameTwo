@@ -1,3 +1,7 @@
+if(oHealth == undefined) {
+	oHealth = oMaxHealth;
+}
+
 if(oHealth <= 0) {
 	instance_destroy();	
 }
@@ -31,7 +35,7 @@ if(direct == "left") {
 	
 }
 
-if(place_meeting(x + hspeed - sprite_width / 2, y, global.collision_objects)) {
+if(place_meeting(x + hspeed, y - 16, global.collision_objects)) {
 	if(direct == "left") {
 		direct = "right";
 	} else {
@@ -39,14 +43,14 @@ if(place_meeting(x + hspeed - sprite_width / 2, y, global.collision_objects)) {
 	}
 }
 
-
-if(!place_meeting(x + hspeed, y, global.collision_objects) && !place_meeting(x + hspeed * 16, y + 16, global.collision_objects)) {
+if(!collision_line(x - sprite_width / 2, y, x - sprite_width / 2, y + sprite_height, global.collision_objects, false, true)) {
 	if(direct == "left") {
 		direct = "right";	
 	} else {
 		direct = "left";
 	}
 }
+
 
 vspd+=grv;
 
@@ -62,11 +66,11 @@ if (place_meeting(x, y+vspd, global.collision_objects)){
 
 if(randomStateTimer <= 0) {
 	
-	if(state == eState.WANDERING && irandom_range(0,1) >= 1) {
+	if(state == eState.WANDERING && irandom_range(0,2) >= 2) {
 		state = eState.IDLE;
-	} else if(state == eState.IDLE && irandom_range(0,5) >= 1) {
+	} else if(state == eState.IDLE && irandom_range(0,7) >= 1) {
 		state = eState.WANDERING;
-	} else if(state == eState.HUNTING && irandom_range(0,3) >= 1 && canAttackFromRange) {
+	} else if(state == eState.HUNTING && irandom_range(0,5) >= 1 && canAttackFromRange) {
 		state = eState.ATTACKING_RANGED;
 		isRangedAttacking = true;
 	}
@@ -83,7 +87,7 @@ if(isPlayerOnSamePlatform && state != eState.ATTACKING_RANGED && state != eState
 	state = eState.WANDERING;
 }
 
-if(state == eState.HUNTING && distance_to_object(oPlayer) < melee_distance) {
+if(state == eState.HUNTING && point_distance(oPlayer.x, oPlayer.y, x, y) < melee_distance) {
 	state = eState.ATTACKING_MELEE;
 	isMeleeAttacking = true;
 }
@@ -132,7 +136,7 @@ if(isMeleeAttacking) {
 } else if(isRangedAttacking) {
 	if(object_exists(rangedObject)) {
 		obj = instance_create_layer(x,y,"Instances", rangedObject);
-		obj.direction = point_direction(x,y,oPlayer.x, oPlayer.y);
+		obj.direction = point_direction(x,y,oPlayer.x, oPlayer.y - oPlayer.sprite_height / 2);
 	}
 	isRangedAttacking = false;
 }

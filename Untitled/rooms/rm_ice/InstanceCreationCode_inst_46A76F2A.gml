@@ -2,7 +2,7 @@
 	Edit these variables in the "Creation Code" of the object in the room
 */
 rangedObject = -1;
-oMaxHealth = 10;
+oMaxHealth = 20;
 
 idle_sprite = sPolarBearIdle;
 walking_sprite = sPolarBear;
@@ -14,7 +14,7 @@ attacking_ranged_sprite = -1;
 // This will typically need to just be the walking sprite
 fallback_sprite = sPolarBear;
 
-melee_distance = 5;
+melee_distance = 50;
 damage = 5;
 
 canAttackFromRange = false;

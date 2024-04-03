@@ -14,7 +14,7 @@ attacking_ranged_sprite = -1;
 // This will typically need to just be the walking sprite
 fallback_sprite = sEnemy;
 
-melee_distance = 5;
+melee_distance = 32;
 damage = 5;
 
 canAttackFromRange = false;
@@ -23,7 +23,7 @@ canAttackFromRange = false;
 	Do not change anything after this!
 */
 
-oHealth = oMaxHealth;
+oHealth = undefined;
 
 isHurt = false;
 invincibilityTimeMax = 20;

@@ -33,7 +33,9 @@ if(!typing) {
 	if (can_jump-- > 0 && keyboard_check(global.jump_key)){
 		can_jump = 0;
 	    vspd = vspdJump;
+		show_debug_message($"JUMPED! {state}");
 		state = PlayerState.JUMPING;
+		image_index = 0;
 	}
 
 	if (keyboard_check(global.right_key)){
@@ -82,7 +84,10 @@ x+=hspd;
 if (place_meeting(x, y+vspd, global.collision_objects)){
 	if(vspd > 0.0) {
 		can_jump = 10;
-		if(state == PlayerState.JUMPING) state = PlayerState.IDLE;
+			show_debug_message($"RESET JUMP {state}");
+		if(state == PlayerState.JUMPING) {
+			state = PlayerState.IDLE;
+		}
 	}
 
 	while (abs(vspd) > 0.1) {
@@ -115,11 +120,11 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 		
 		if(holding.options.attackType == AttackType.MELEE) {
 			
-			cBox = instance_create_layer(x,y,"Instances", oCollisionBox);
+			cBox = instance_create_layer(x,y - sprite_height / 2,"Instances", oCollisionBox);
 			
 			//cBox.width = holding.options.attackWidth
 			//cBox.height = holding.options.attackHeight;
-			cBox.width = 96;
+			cBox.width = 128;
 			cBox.height = sprite_height;
 			cBox.facing = sign(image_xscale);
 			cBox.knockback_strength = holding.options.knockbackStrength;
@@ -157,17 +162,18 @@ if(holding != undefined && mouse_check_button_pressed(mb_left) && state != Playe
 	}
 }
 
-//sprite_index = getPlayerSprite(state, holding); DOTO: Remove comment once we have player sprites
-sprite_test = getPlayerSprite(state, holding);
+sprite = getPlayerSprite(state, holding);
+if(state != PlayerState.JUMPING)
+show_debug_message($"GET {state}")
 try {
-	if(sprite_exists(sprite_test)) {
-		sprite_index = sprite_test;
+	if(sprite_exists(sprite)) {
+		sprite_index = sprite;
 	}
 } catch(e) {
-	
+	show_debug_message("Failed to get a sprite");
 }
 
-if(sprite_index != sPlayerJumping && sprite_index != sPlayerJumpingSword){
+if(state != PlayerState.JUMPING){
 	image_speed = 1;
 }
 

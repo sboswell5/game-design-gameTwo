@@ -107,6 +107,7 @@
     {"id":{"name":"sDemonGorillaIdle","path":"sprites/sDemonGorillaIdle/sDemonGorillaIdle.yy",},},
     {"id":{"name":"sHealingPotion","path":"sprites/sHealingPotion/sHealingPotion.yy",},},
     {"id":{"name":"layer4","path":"sprites/layer4/layer4.yy",},},
+    {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
     {"id":{"name":"getPlayerSprite","path":"scripts/getPlayerSprite/getPlayerSprite.yy",},},
     {"id":{"name":"sPlayerJumpingSword","path":"sprites/sPlayerJumpingSword/sPlayerJumpingSword.yy",},},
     {"id":{"name":"oObserver","path":"objects/oObserver/oObserver.yy",},},
@@ -150,6 +151,9 @@
     {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
     {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
     {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
+    {"roomId":{"name":"rm_ice","path":"rooms/rm_ice/rm_ice.yy",},},
+    {"roomId":{"name":"rm_jungle","path":"rooms/rm_jungle/rm_jungle.yy",},},
+    {"roomId":{"name":"rm_hell","path":"rooms/rm_hell/rm_hell.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
