@@ -14,7 +14,7 @@ attacking_ranged_sprite = sDemonGorillaAtk;
 // This will typically need to just be the walking sprite
 fallback_sprite = sDemonGorillaIdle;
 
-melee_distance = 2;
+melee_distance = 20;
 damage = 5;
 
 canAttackFromRange = true;

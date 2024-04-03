@@ -2,7 +2,7 @@
 	Edit these variables in the "Creation Code" of the object in the room
 */
 rangedObject = -1; 
-oMaxHealth = 10;
+oMaxHealth = 50;
 
 idle_sprite = sDevilIdle;
 walking_sprite = sDevilWalk;
@@ -14,7 +14,7 @@ attacking_ranged_sprite = -1;
 // This will typically need to just be the walking sprite
 fallback_sprite = sDevilIdle;
 
-melee_distance = 2;
+melee_distance = 20;
 damage = 7;
 
 canAttackFromRange = false;
