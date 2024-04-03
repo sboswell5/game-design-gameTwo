@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"sPolarBearAttack","order":1,"path":"sprites/sPolarBearAttack/sPolarBearAttack.yy",},
     {"name":"oBananaProjectile","order":1,"path":"objects/oBananaProjectile/oBananaProjectile.yy",},
   ],
 }
